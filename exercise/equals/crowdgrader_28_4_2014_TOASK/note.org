@@ -1,0 +1,8 @@
+#+title: Note
+
+* Shape
+How I can update Shape (in Circle) if I don't have methods to update the fields?
+The clojure way suggest me to return a new Circle with a new updated Shape, but the code snippet that show how to use the classes doesn't allow me to return a new Circle.
+#+begin_src java
+((Circle) shape).updateRadius(2.0);
+#+end_src
