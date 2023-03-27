@@ -120,7 +120,7 @@ Start on page 9.
 + [ ] 2006-4-27
 * Esercizi elementari
 Start on page 53.
-** Exercise [24%]
+** Exercise [27%]
 + [ ] 2022-2-26 (Exchange)
 + [X] 2021-9-24 (Radio)
 + [X] 2021-7-26 (GreenPass)
@@ -133,7 +133,7 @@ Start on page 53.
 + [X] 2014-7-28 (Playlist)
 + [X] 2013-4-23 (ResettableSafe), first useful case of protected (try protected in Shape (equals))
 + [X] 2011-3-4 (PrintBytes)
-+ [ ] 2010-9-14 (Time)
++ [X] 2010-9-14 (Time)
 + [ ] 2010-7-26 (Tetris)
 + [ ] 2010-5-3 (Crosswords)
 + [ ] 2010-2-24 (Wall)
