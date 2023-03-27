@@ -1,7 +1,6 @@
 public class Exam {
 
     public static void main(String[] args) {
-
         Shape c1 = new Circle(2.0, 3.0, 1.0);
         Shape c2 = (Shape) c1.clone();
         System.out.println(c1.posX() + ", " + c1.posY());
@@ -14,8 +13,8 @@ public class Exam {
 }
 
 abstract class Shape implements Cloneable, Comparable<Shape> {
-    private double width, height;
-    private double posX, posY;
+    protected double width, height;
+    protected double posX, posY;
 
     public Shape(double width, double height, double posX, double posY) {
         this.width = width;
@@ -39,26 +38,6 @@ abstract class Shape implements Cloneable, Comparable<Shape> {
     public double width() {
         return width;
     }
-
-    ///////////////////////////////////////////
-    //////       Trivial solution      ////////
-    ///////////////////////////////////////////
-    public void setX(double newX){
-       posX = newX;
-    }
-
-    public void setY(double newY){
-       posY = newY;
-    }
-
-    public void setHeight(double newHeight){
-       height = newHeight;
-    }
-
-    public void setHeight(double newWidth){
-       width = newWidth;
-    }
-    ///////////////////////////////////////////
 
     private double getArea() {
         return width * height;
@@ -90,13 +69,11 @@ final class Circle extends Shape {
     }
 
     public void setRadius(double radius) {
-        // how I can update the parent shape?
-        // trivial solution
-        super.setX(super.getX() + this.radius - radius );
-        super.setY(super.getY() + this.radius - radius );
-        super.setHeight(2 * radius);
-        super.setWidth(2 * radius);
         this.radius = radius;
+        posX = centerX - radius;
+        posY = centerY - radius;
+        height = 2 * radius;
+        width = 2 * radius;
     }
 
     @Override
