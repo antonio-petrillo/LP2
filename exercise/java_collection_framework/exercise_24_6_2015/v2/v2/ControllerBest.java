@@ -1,45 +1,24 @@
+import java.util.Map;
+import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Controller {
+public class ControllerBest {
 
-    private List<Function> functions = new ArrayList<>();
+    private Map<String, Function> functions = new HashMap<>();
 
     public Function addFunction(String name) {
-        // La traccia non specifica nulla nel caso ci siano piú function uguali
-        // Ci sono tre opzioni:
-        //
-        // 1. ritornare il nuovo oggetto creato, potrebbe confondere un eventuale client
-        //
-        // 2. ritornare null, a mio parere migliore del primo,
-        // ma comunque se quella function esiste giá, il client potrebbe essere
-        // interessato a quell'oggetto, ad esempio nel caso in cui ha perso il
-        // riferimento ad essa.
-        //
-        // 3. ritornare l'oggetto giá presente nella lista delle funzioni
-        //
         Function f = new Function(name);
-        if (!functions.contains(f)) {
-            functions.add(f);
+        if (!functions.containsKey(name)) {
+            functions.put(name, f);
         } else {
-            // 1. return f
-            //
-            // 2. f = null;
-            //
-            // 3. ritornare la vecchia function
-            // Qua una hashmap sarebbe piú adeguata di una lista
-            for (Function other : functions) {
-                if (other.equals(f)) {
-                    f = other;
-                    break;
-                }
-            }
+            f = functions.get(name);
         }
         return f;
     }
 
     public void printOn() {
-        for (Function f : functions) {
+        for (Function f : functions.values()) {
             if (f.active) {
                 System.out.println(f);
             }
@@ -95,11 +74,11 @@ public class Controller {
     }
 
     public static void main(String[] args) {
-        Controller c = new Controller();
+        ControllerBest c = new ControllerBest();
 
-        Controller.Function ac = c.addFunction("Aria condizionata");
-        Controller.Function risc = c.addFunction("Riscaldamento");
-        Controller.Function sedile = c.addFunction("Sedile riscaldato");
+        ControllerBest.Function ac = c.addFunction("Aria condizionata");
+        ControllerBest.Function risc = c.addFunction("Riscaldamento");
+        ControllerBest.Function sedile = c.addFunction("Sedile riscaldato");
 
         ac.setIncompatible(risc);
         ac.setIncompatible(sedile);

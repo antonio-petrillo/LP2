@@ -120,7 +120,7 @@ Start on page 9.
 + [ ] 2006-4-27
 * Esercizi elementari
 Start on page 53.
-** Exercise [27%]
+** Exercise [35%]
 + [ ] 2022-2-26 (Exchange)
 + [X] 2021-9-24 (Radio)
 + [X] 2021-7-26 (GreenPass)
@@ -134,11 +134,11 @@ Start on page 53.
 + [X] 2013-4-23 (ResettableSafe), first useful case of protected (try protected in Shape (equals))
 + [X] 2011-3-4 (PrintBytes)
 + [X] 2010-9-14 (Time)
-+ [ ] 2010-7-26 (Tetris)
++ [X] 2010-7-26 (Tetris)
 + [ ] 2010-5-3 (Crosswords)
 + [ ] 2010-2-24 (Wall)
-+ [ ] 2010-11-30 (Segment)
-+ [ ] 2010-1-22 (Color)
++ [X] 2010-11-30 (Segment)
++ [X] 2010-1-22 (Color)
 + [ ] 2009-4-23 (Circle)
 + [ ] 2009-1-29 (Interval)
 + [ ] 2009-1-15 (Anagram)
@@ -161,3 +161,4 @@ Start on page 53.
 * Java Collection framework
 ** Exercise [100%]
 + [X]  2015-6-24 (Controller)
++ [X]  2009-2-19 (Container)
