@@ -36,7 +36,7 @@ public class Container {
     }
 
     public Integer getAmount(){
-        return connected.isEmpty() ? amount[0] : amount[0] / connected.size();
+        return amount[0] / connected.size();
     }
 
     public void addWater(Integer amount){
