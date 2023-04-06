@@ -4,12 +4,12 @@ import java.util.HashSet;
 public class Container {
 
     private Set<Container> connected;
-    private Integer[] amount;
+    private Double[] amount;
 
     public Container() {
         connected = new HashSet<>();
-        amount = new Integer[1];
-        amount[0] = Integer.valueOf(0);
+        amount = new Double[1];
+        amount[0] = Double.valueOf(0);
         connected.add(this);
     }
 
@@ -19,8 +19,8 @@ public class Container {
         Container c = new Container();
         Container d = new Container();
 
-        a.addWater(12);
-        d.addWater(8);
+        a.addWater(12.0);
+        d.addWater(8.0);
 
         a.connect(b);
 
@@ -35,11 +35,11 @@ public class Container {
         System.out.println(a + " " + b + " " + c + " " + d);
     }
 
-    public Integer getAmount() {
+    public Double getAmount() {
         return amount[0] / connected.size();
     }
 
-    public void addWater(Integer amount) {
+    public void addWater(Double amount) {
         this.amount[0] += amount;
     }
 

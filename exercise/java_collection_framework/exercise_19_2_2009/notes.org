@@ -1,0 +1,6 @@
+#+title: Notes
+
+* Why I've used an array?
+Because I want that all the containers that are connected refere to the same Integer.
+Since Integers are immutable I can't use a simple ~Integer~ variable beacause when I update it in an instance the change aren't reflected in all the connected containers.
+With an array I share the same reference to the array and then when I update the value in position 0 the update is visibile to all the containers.
