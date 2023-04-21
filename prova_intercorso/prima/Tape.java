@@ -63,6 +63,7 @@ public class Tape {
         };
 
     // ho anche dimenticato il costruttore
+    // cbepb qvb non ho ricopiato il metodo ahead
 
     @Override
     public boolean equals(Object o){

@@ -6,6 +6,7 @@ public class Container {
     private Integer[] connected;
     private Double[] amount;
 
+    // O(1), O(1)
     public Container() {
         connected = new Integer[1];
         connected[0] = Integer.valueOf(1);
@@ -35,14 +36,17 @@ public class Container {
         System.out.println(a + " " + b + " " + c + " " + d);
     }
 
+    // O(1), O(1)
     public Double getAmount() {
         return amount[0] / connected[0];
     }
 
+    // O(1), O(1)
     public void addWater(Double amount) {
         this.amount[0] += amount;
     }
 
+    // O(1), O(1)
     public void connect(Container c) {
         amount[0] += c.amount[0];
         connected[0] += c.connected[0];
@@ -50,6 +54,7 @@ public class Container {
         c.connected = connected;
     }
 
+    // O(1), O(1)
     @Override
     public String toString() {
         return getAmount().toString();
