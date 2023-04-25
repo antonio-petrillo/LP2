@@ -34,7 +34,7 @@ Start on page 11.
 + [X] 2007-6-29 Implement Generic Field (DoubleField) and Polynomial
 * Dynamic binding
 Start on page 9.
-** Exercise [10%]
+** Exercise [12%]
 + [X] 2019-7-23
 + [X] 2019-6-24
 + [X] 2019-4-29
@@ -104,7 +104,7 @@ Start on page 9.
 + [ ] 2008-7-9
 + [ ] 2008-6-19
 + [ ] 2008-4-21
-+ [ ] 2008-3-27
++ [X] 2008-3-27
 + [ ] 2008-3-25
 + [ ] 2008-1-30
 + [ ] 2007-9-17
@@ -120,7 +120,7 @@ Start on page 9.
 + [ ] 2006-4-27
 * Esercizi elementari
 Start on page 53.
-** Exercise [35%]
+** Exercise [37%]
 + [ ] 2022-2-26 (Exchange)
 + [X] 2021-9-24 (Radio)
 + [X] 2021-7-26 (GreenPass)
@@ -139,7 +139,7 @@ Start on page 53.
 + [ ] 2010-2-24 (Wall)
 + [X] 2010-11-30 (Segment)
 + [X] 2010-1-22 (Color)
-+ [ ] 2009-4-23 (Circle)
++ [X] 2009-4-23 (Circle)
 + [ ] 2009-1-29 (Interval)
 + [ ] 2009-1-15 (Anagram)
 + [ ] 2008-9-8, diff between abstract and interface.
@@ -159,6 +159,71 @@ Start on page 53.
 + [ ] 2006-6-26 (Moto Bidimensionale)
 + [ ] 2006-4-27 (Average)
 * Java Collection framework
-** Exercise [100%]
-+ [X]  2015-6-24 (Controller)
-+ [X]  2009-2-19 (Container)
+** Exercise [10%]
++ [X] 2020-1-24 (Product & Cart)
++ [X] 2020-6-24 (SortedList)
++ [X] 2019-04-29 (RotatingList)
++ [ ] 2019-3-19 (Library)
++ [ ] 2018-9-17 (Cellphone)
++ [ ] 2018-7-19 (SafeSet)
++ [ ] 2018-5-2 (Merge)
++ [ ] 2018-3-23 (isSetSmaller)
++ [ ] 2018-2-12 (Book & Library)
++ [ ] 2018-10-18 (Component & Configuration)
++ [ ] 2018-1-24 (Bug)
++ [ ] 2017-4-26 (Room)
++ [ ] 2017-3-23 (BinRel)
++ [ ] 2017-10-6 (Clinica)
++ [ ] 2017-1-15 (mergeIfSorted)
++ [ ] 2016-9-20 (SocialUser)
++ [ ] 2016-3-3 (GameLevel)
++ [ ] 2016-1-27 (Curriculum)
++ [ ] 2015-9-21 (Progression)
++ [X] 2015-6-24 (Controller)
++ [ ] 2015-1-20 (Relation)
++ [ ] 2014-9-18 (Contest)
++ [ ] 2014-7-3 (subMap)
++ [ ] 2014-7-28 (inverseMap)
++ [ ] 2014-1-31 (BoundedSet)
++ [ ] 2013-9-25 (Movie)
++ [ ] 2013-9-25 (composeMaps)
++ [ ] 2013-7-9 (isSorted)
++ [ ] 2013-6-25 (MultiBuffer)
++ [X] 2013-6-25 (Concat)
++ [ ] 2013-4-29 (City)
++ [ ] 2013-3-22 (Auditorium)
++ [ ] 2013-2-11 (MultiSet)
++ [ ] 2012-9-3 (Bijection)
++ [ ] 2012-7-9 (Social network)
++ [ ] 2012-6-18 (BoundedMap)
++ [ ] 2012-4-23 (Panino)
++ [ ] 2011-2-7 (MakeMap)
++ [ ] 2010-9-14 (Intersect)
++ [ ] 2010-6-28 (PartiallyComparable)
++ [ ] 2010-11-30 (SelectKeys)
++ [ ] 2010-1-22 (Color)
++ [ ] 2010-1-22 (GetByType)
++ [ ] 2009-6-19 (Tutor)
++ [ ] 2009-4-23 (UML)
++ [X] 2009-2-19 (Container)
++ [ ] 2009-11-27 (CountByType)
++ [ ] 2009-1-15 (Volo & Passaggero)
++ [ ] 2008-9-8 (PostIt)
++ [X] 2008-6-19 (Molecola)
++ [ ] 2008-3-27 (Impianto & Apparecchio)
++ [ ] 2008-2-25 (BoolExpr)
++ [ ] 2008-1-30 (Recipe)
++ [ ] 2007-9-17 (FunnyOrder)
++ [ ] 2007-6-29 (?)
++ [ ] 2007-6-29 (Highway)
++ [ ] 2007-2-7 (Polinomio-bis)
++ [ ] 2007-2-23 (Inventory)
++ [ ] 2007-1-12 (Insieme di Polinomi)
++ [ ] 2006-7-17 (Spartito)
++ [ ] 2006-7-17 (?)
++ [ ] 2006-6-26 (Pubblication)
++ [ ] 2006-6-26 (DoubleQueue)
++ [ ] 2006-6-26 (?)
+* Scelta della firma
+** Exercise [%]
++ [ ] 2022-1-28 (combine)
