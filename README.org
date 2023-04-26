@@ -2,7 +2,6 @@
 
 * Repo LP2
 Repo for the course LP2 by [[http://wpage.unina.it/m.faella/index.html?page=Didattica/lp2_2223][Marco Faella]].
-
 * Equals
 Start on page 5.
 ** Exercise [95%]
@@ -159,7 +158,8 @@ Start on page 53.
 + [ ] 2006-6-26 (Moto Bidimensionale)
 + [ ] 2006-4-27 (Average)
 * Java Collection framework
-** Exercise [10%]
+Start on page 69 (nice).
+** Exercise [21%]
 + [X] 2020-1-24 (Product & Cart)
 + [X] 2020-6-24 (SortedList)
 + [X] 2019-04-29 (RotatingList)
@@ -168,7 +168,7 @@ Start on page 53.
 + [ ] 2018-7-19 (SafeSet)
 + [ ] 2018-5-2 (Merge)
 + [ ] 2018-3-23 (isSetSmaller)
-+ [ ] 2018-2-12 (Book & Library)
++ [X] 2018-2-22 (Book & Library)
 + [ ] 2018-10-18 (Component & Configuration)
 + [ ] 2018-1-24 (Bug)
 + [ ] 2017-4-26 (Room)
@@ -184,7 +184,7 @@ Start on page 53.
 + [ ] 2014-9-18 (Contest)
 + [ ] 2014-7-3 (subMap)
 + [ ] 2014-7-28 (inverseMap)
-+ [ ] 2014-1-31 (BoundedSet)
++ [X] 2014-1-31 (BoundedSet)
 + [ ] 2013-9-25 (Movie)
 + [ ] 2013-9-25 (composeMaps)
 + [ ] 2013-7-9 (isSorted)
@@ -194,10 +194,10 @@ Start on page 53.
 + [ ] 2013-3-22 (Auditorium)
 + [ ] 2013-2-11 (MultiSet)
 + [ ] 2012-9-3 (Bijection)
-+ [ ] 2012-7-9 (Social network)
-+ [ ] 2012-6-18 (BoundedMap)
++ [X] 2012-7-9 (Social network)
++ [X] 2012-6-18 (BoundedMap)
 + [ ] 2012-4-23 (Panino)
-+ [ ] 2011-2-7 (MakeMap)
++ [X] 2011-2-7 (MakeMap)
 + [ ] 2010-9-14 (Intersect)
 + [ ] 2010-6-28 (PartiallyComparable)
 + [ ] 2010-11-30 (SelectKeys)
@@ -211,9 +211,9 @@ Start on page 53.
 + [ ] 2008-9-8 (PostIt)
 + [X] 2008-6-19 (Molecola)
 + [ ] 2008-3-27 (Impianto & Apparecchio)
-+ [ ] 2008-2-25 (BoolExpr)
++ [X] 2008-2-25 (BoolExpr)
 + [ ] 2008-1-30 (Recipe)
-+ [ ] 2007-9-17 (FunnyOrder)
++ [X] 2007-9-17 (FunnyOrder)
 + [ ] 2007-6-29 (?)
 + [ ] 2007-6-29 (Highway)
 + [ ] 2007-2-7 (Polinomio-bis)
