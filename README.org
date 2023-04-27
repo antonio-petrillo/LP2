@@ -159,7 +159,7 @@ Start on page 53.
 + [ ] 2006-4-27 (Average)
 * Java Collection framework
 Start on page 69 (nice).
-** Exercise [21%]
+** Exercise [26%]
 + [X] 2020-1-24 (Product & Cart)
 + [X] 2020-6-24 (SortedList)
 + [X] 2019-04-29 (RotatingList)
@@ -172,7 +172,7 @@ Start on page 69 (nice).
 + [ ] 2018-10-18 (Component & Configuration)
 + [ ] 2018-1-24 (Bug)
 + [ ] 2017-4-26 (Room)
-+ [ ] 2017-3-23 (BinRel)
++ [X] 2017-3-23 (BinRel)
 + [ ] 2017-10-6 (Clinica)
 + [ ] 2017-1-15 (mergeIfSorted)
 + [ ] 2016-9-20 (SocialUser)
@@ -199,8 +199,8 @@ Start on page 69 (nice).
 + [ ] 2012-4-23 (Panino)
 + [X] 2011-2-7 (MakeMap)
 + [ ] 2010-9-14 (Intersect)
++ [X] 2010-11-30 (SelectKeys)
 + [ ] 2010-6-28 (PartiallyComparable)
-+ [ ] 2010-11-30 (SelectKeys)
 + [ ] 2010-1-22 (Color)
 + [ ] 2010-1-22 (GetByType)
 + [ ] 2009-6-19 (Tutor)
@@ -217,7 +217,7 @@ Start on page 69 (nice).
 + [ ] 2007-6-29 (?)
 + [ ] 2007-6-29 (Highway)
 + [ ] 2007-2-7 (Polinomio-bis)
-+ [ ] 2007-2-23 (Inventory)
++ [X] 2007-2-23 (Inventory)
 + [ ] 2007-1-12 (Insieme di Polinomi)
 + [ ] 2006-7-17 (Spartito)
 + [ ] 2006-7-17 (?)
