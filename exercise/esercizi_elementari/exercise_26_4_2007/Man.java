@@ -1,15 +1,15 @@
-public class Man implements Person {
+public class Man extends Person {
 
-    private String nome;
-    private String cognome;
+    protected Person wife;
 
-    private Person father;
-    private Person mother;
-    private Person wife;
+    public Man(String nome, String cognome){
+        super(nome, cognome);
+    }
 
-    public Man(String nome, String cognome) {
-        this.nome = nome;
-        this.cognome = cognome;
+    @Override
+    public void addChild(Person p){
+        super.addChild(p);
+        p.padre = this;
     }
 
 }

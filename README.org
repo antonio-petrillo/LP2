@@ -119,7 +119,7 @@ Start on page 9.
 + [ ] 2006-4-27
 * Esercizi elementari
 Start on page 53.
-** Exercise [37%]
+** Exercise [40%]
 + [ ] 2022-2-26 (Exchange)
 + [X] 2021-9-24 (Radio)
 + [X] 2021-7-26 (GreenPass)
@@ -149,7 +149,7 @@ Start on page 53.
 + [ ] 2007-9-17 (Aereo)
 + [ ] 2007-7-20 (ParkingLot)
 + [ ] 2007-6-29 (Rational)
-+ [ ] 2007-4-26 (Genealogia)
++ [X] 2007-4-26 (Genealogia)
 + [ ] 2007-4-26
 + [ ] 2007-1-12 (Polinomio)
 + [ ] 2006-9-15 (FallingBody)
@@ -159,7 +159,7 @@ Start on page 53.
 + [ ] 2006-4-27 (Average)
 * Java Collection framework
 Start on page 69 (nice).
-** Exercise [26%]
+** Exercise [28%]
 + [X] 2020-1-24 (Product & Cart)
 + [X] 2020-6-24 (SortedList)
 + [X] 2019-04-29 (RotatingList)
@@ -169,7 +169,7 @@ Start on page 69 (nice).
 + [ ] 2018-5-2 (Merge)
 + [ ] 2018-3-23 (isSetSmaller)
 + [X] 2018-2-22 (Book & Library)
-+ [ ] 2018-10-18 (Component & Configuration)
++ [X] 2018-10-18 (Component & Configuration)
 + [ ] 2018-1-24 (Bug)
 + [ ] 2017-4-26 (Room)
 + [X] 2017-3-23 (BinRel)
@@ -227,3 +227,6 @@ Start on page 69 (nice).
 * Scelta della firma
 ** Exercise [%]
 + [ ] 2022-1-28 (combine)
+* Exercise to improve [1/1]
++ [X] 2018-10-18 (Component & Configuration)
+    Instead of use the HashMap in Configuration, use the ad hoc map for enums.

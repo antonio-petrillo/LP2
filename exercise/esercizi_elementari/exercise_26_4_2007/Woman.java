@@ -1,25 +1,15 @@
-import java.util.*;
+public class Woman extends Person {
 
-public class Woman implements Person {
+    protected Person husband;
 
-    private String nome;
-    private String cognome;
-    private Person father;
-    private Person mother;
-
-    public Woman(String nome, String cognome) {
-        this.nome = nome;
-        this.cognome = cognome;
+    public Woman(String nome, String cognome){
+        super(nome, cognome);
     }
 
     @Override
-    public boolean areSibling(Person p) {
-
+    public void addChild(Person p){
+        super.addChild(p);
+        p.madre = this;
     }
 
-    @Override
-    public boolean addChild(Person p);
-
-    @Override
-    public boolean marries(Person p);
 }
