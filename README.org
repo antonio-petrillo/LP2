@@ -27,10 +27,6 @@ Start on page 5.
 + [X] 2008-7-9  Z
 + [X] 2008-4-21 Triangoli
 + [X] 2007-2-7  Monomio
-* Generics
-Start on page 11.
-** Exercise [100%]
-+ [X] 2007-6-29 Implement Generic Field (DoubleField) and Polynomial
 * Dynamic binding
 Start on page 9.
 ** Exercise [12%]
@@ -225,8 +221,346 @@ Start on page 69 (nice).
 + [X] 2006-6-26 (DoubleQueue)
 + [ ] 2006-6-26 (?)
 * Scelta della firma
-** Exercise [%]
+** Exercise [0%]
 + [ ] 2022-1-28 (combine)
++ [ ] 2021-9-24 (countOccurrences)
++ [ ] 2021-7-26 (overridingMap)
++ [ ] 2021-10-26 (countInBetweens)
++ [ ] 2020-2-27 (keysWithHighestValue)
++ [ ] 2019-9-20 (disjoin)
++ [ ] 2019-7-23 (Minimum enum)
++ [ ] 2019-6-24 (keysWithValue)
++ [ ] 2019-10-9 (Interleave2)
++ [ ] 2019-1-23 (findPrevious)
++ [ ] 2018-6-20 (makeMap)
++ [ ] 2018-2-22 (cartesianProduct)
++ [ ] 2018-10-18 (greatesLowerBound)
++ [ ] 2018-1-24 (isIncreasing)
++ [ ] 2017-7-20 (commonKeys)
++ [ ] 2017-6-21 (findNext)
++ [ ] 2016-6-22 (arePermutations)
++ [ ] 2015-9-21 (splitList)
++ [ ] 2015-6-24 (listIntersection)
++ [ ] 2015-2-5 (reverseList)
++ [ ] 2015-1-20 (difference)
++ [ ] 2014-7-3 (subMap)
++ [ ] 2014-7-28 (inverseMap)
++ [ ] 2014-7-28 (extractPos)
++ [ ] 2014-11-28 (product)
++ [ ] 2014-1-31 (isMax)
++ [ ] 2013-9-25 (composeMaps)
++ [ ] 2013-7-9 (isSorted)
++ [ ] 2013-6-25 (Concat)
++ [ ] 2013-12-16 (agree)
+* Trova l'errore
+Start on page 105.
+** Exercise [0%]
++ [ ] 2007-7-20
++ [ ] 2007-6-20
++ [ ] 2007-4-26
++ [ ] 2006-9-15
++ [ ] 2006-7-17
++ [ ] 2006-6-26
++ [ ] 2006-4-27
+* Design by contract
+Start on page 109.
+** Exercise [0%]
++ [ ] 2018-5-2
++ [ ] 2016-4-21
+* Programmazione parametrica (generics)
+Start on page 111.
+** Exercise [6%]
++ [ ] 2020-2-27 (Accumulator)
++ [ ] 2019-2-15 (Range)
++ [ ] 2017-4-26 (Container)
++ [ ] 2016-7-21 (?)
++ [ ] 2016-1-27 (?)
++ [ ] 2015-1-20 (Relation)
++ [ ] 2013-4-29 (Pair)
++ [ ] 2012-6-18 (BoundedMap)
++ [ ] 2013-3-4 (?)
++ [ ] 2011-2-7 (MakeMap)
++ [ ] 2010-9-14 (Intersect)
++ [ ] 2010-7-26 (?)
++ [ ] 2010-11-30 (SelectKeys)
++ [ ] 2009-7-9 (?)
++ [ ] 2009-6-19 (?)
++ [ ] 2009-2-19 (Interleave)
++ [ ] 2009-1-29 (Split)
++ [ ] 2008-2-25 (BoolExpr)
++ [ ] 2008-2-25 (MyFor)
++ [ ] 2008-1-30 (Sorter)
++ [ ] 2007-9-17 (Selector)
++ [X] 2007-9-17 (FunnyOrder)
++ [ ] 2007-7-20 (CommonDivisor)
++ [ ] 2007-7-20 (ParkingLot)
++ [ ] 2007-7-20 (?)
++ [X] 2007-6-29 Implement Generic Field (DoubleField) and Polynomial
++ [ ] 2007-2-7 (Polinomio bis)
++ [ ] 2007-2-23 (Inventory)
++ [ ] 2006-7-17 (?)
++ [ ] 2006-6-26 (?)
+* Classe mancante
+Start on page 121.
+** Exercise [0%]
++ [ ] 2019-10-9
++ [ ] 2016-1-27
++ [ ] 2011-3-4
++ [ ] 2010-7-26
++ [ ] 2010-1-22
++ [ ] 2009-9-18
++ [ ] 2009-7-9
++ [ ] 2009-6-19
++ [ ] 2009-4-23
++ [ ] 2009-2-19
++ [ ] 2009-11-27
++ [ ] 2009-1-15
++ [ ] 2008-7-9
++ [ ] 2008-6-19
++ [ ] 2008-3-27
++ [ ] 2008-2-25
++ [ ] 2008-1-30
+* Classi interne
+Start on page 127.
+** Exercise [0%]
++ [ ] 2021-9-24 (InternalLayout2)
++ [ ] 2021-7-26 (InternalLayout1)
++ [ ] 2019-9-20 (Microwave)
++ [ ] 2018-3-23 (Studente)
++ [ ] 2016-4-21 (Engine)
++ [ ] 2016-1-27 (Curriculum)
++ [ ] 2015-6-24 (Controller)
++ [ ] 2014-11-3 (Pizza)
++ [ ] 2010-1-22 (?)
++ [ ] 2009-9-18 (?)
++ [ ] 2009-4-23 (?)
++ [ ] 2009-11-27 (?)
++ [ ] 2009-1-29 (Interval)
++ [ ] 2008-4-21 (Triangolo)
+* Classi enumerate
+Start on page 133.
+** Exercise [8%]
++ [ ] 2017-1-25 (LengthUnit)
++ [ ] 2014-7-3 (NutrInfo)
++ [ ] 2014-3-5 (Status)
++ [ ] 2014-11-3 (Pizza)
++ [ ] 2014-11-128 (Coin)
++ [ ] 2013-7-9 (BloodType)
++ [ ] 2013-12-16 (Note)
++ [ ] 2012-7-9 (NumberType)
++ [ ] 2012-4-23 (Panino)
++ [ ] 2010-7-26 (TetrisPiece)
++ [X] 2009-6-19 (Cardinal)
+* Vero o Falso
+Start on page 137.
+** Exercise [0%]
++ [ ] 2020-2-27
++ [ ] 2020-1-24
++ [ ] 2019-9-20
++ [ ] 2019-7-23
++ [ ] 2019-6-24
++ [ ] 2019-3-19
++ [ ] 2019-2-15
++ [ ] 2019-10-9
++ [ ] 2019-1-23
++ [ ] 2018-9-17
++ [ ] 2018-7-19
++ [ ] 2018-5-20
++ [ ] 2018-3-23
++ [ ] 2018-2-22
++ [ ] 2018-10-18
++ [ ] 2018-1-24
++ [ ] 2017-7-20
++ [ ] 2017-6-21
++ [ ] 2017-3-23
++ [ ] 2017-2-23
++ [ ] 2017-10-6
++ [ ] 2017-1-25
++ [ ] 2016-9-20
++ [ ] 2016-7-21
++ [ ] 2016-6-22
++ [ ] 2016-3-3
++ [ ] 2016-1-27
++ [ ] 2015-9-21
++ [ ] 2015-7-8
++ [ ] 2015-5-24
++ [ ] 2015-2-5
++ [ ] 2015-1-20
++ [ ] 2014-9-18
++ [ ] 2014-7-3
++ [ ] 2014-7-28
++ [ ] 2014-3-5
++ [ ] 2014-11-28
++ [ ] 2014-1-31
++ [ ] 2013-9-25
++ [ ] 2013-7-9
++ [ ] 2013-6-25
++ [ ] 2013-3-22
++ [ ] 2013-2-11
++ [ ] 2013-12-16
++ [ ] 2013-1-22
++ [ ] 2012-9-3
++ [ ] 2012-9-3
++ [ ] 2012-7-9
++ [ ] 2012-6-18
++ [ ] 2011-3-4
++ [ ] 2011-2-7
++ [ ] 2010-9-14
++ [ ] 2010-7-26
++ [ ] 2010-6-28
++ [ ] 2010-2-24
++ [ ] 2010-11-30
++ [ ] 2010-1-22
++ [ ] 2009-9-18
++ [ ] 2009-7-9
++ [ ] 2009-6-19
++ [ ] 2009-2-19
++ [ ] 2009-11-27
++ [ ] 2009-1-29
++ [ ] 2009-1-15
++ [ ] 2008-9-8
++ [ ] 2008-7-9
++ [ ] 2008-6-19
++ [ ] 2008-3-27
++ [ ] 2008-2-25
++ [ ] 2008-1-30
++ [ ] 2007-9-17
++ [ ] 2007-7-20
++ [ ] 2007-6-29
++ [ ] 2007-2-7
++ [ ] 2007-2-23
++ [ ] 2007-1-12
++ [ ] 2006-9-15
++ [ ] 2006-7-17
++ [ ] 2006-6-26
+* Clonazione
+Start on page 163.
+** Exercise [0%]
++ [ ] 2016-7-21
++ [ ] 2013-1-22
++ [ ] 2012-9-3
++ [ ] 2010-11-30
++ [ ] 2010-1-22
++ [ ] 2006-9-15
+* Riflessione
+Start on page 167.
+** Exercise [14%]
++ [ ] 2022-1-28
++ [ ] 2022-1-26
++ [ ] 2021-10-26
++ [X] 2010-1-22 (GetByType)
++ [ ] 2009-11-27 (CountByType)
++ [ ] 2006-9-15 (SuperclassIterator)
+* Multi-threading
+Start on page 169.
+** Exercise [0%]
++ [ ] 2021-9-24 (MysteryThread5)
++ [ ] 2021-7-26 (?)
++ [ ] 2021-10-26 (Missing synch 3)
++ [ ] 2020-2-27 (MysteryThread8)
++ [ ] 2020-1-24 (MysteryThread7)
++ [ ] 2019-9-20 (MysteryThread6)
++ [ ] 2019-7-23 (RandomExecutor)
++ [ ] 2019-3-19 (Missing synch 3)
++ [ ] 2019-2-15 (Missing synch 2)
++ [ ] 2019-10-9 (Shop)
++ [ ] 2019-1-23 (Guess The Number)
++ [ ] 2018-9-17 (SharedCounter)
++ [ ] 2018-7-19 (SafeSet)
++ [ ] 2018-7-19 (MysteryThread5)
++ [ ] 2018-6-20 (PeriodicExecutor)
++ [ ] 2016-2-22 (Two Threads)
++ [ ] 2018-1-24 (Shared total)
++ [ ] 2017-7-20 (MysteryThread5)
++ [ ] 2017-6-21 (Market)
++ [ ] 2017-3-23 (Bonus per Employee)
++ [ ] 2017-2-23 (sumAndMax)
++ [ ] 2017-10-5 (Somma e azzera)
++ [ ] 2017-1-25 (mergeIfSorted)
++ [ ] 2016-9-20 (Somma due)
++ [ ] 2016-7-21 (findString)
++ [ ] 2016-6-22 (BlockingArray)
++ [ ] 2016-3-3 (MysteryThread3)
++ [ ] 2016-1-27 (twoPhases)
++ [ ] 2015-9-21 (StringQuiz)
++ [ ] 2015-7-8 (TimeToFinish)
++ [ ] 2015-5-24 (SimpleThread)
++ [ ] 2015-2-5 (ForgetfulSet)
++ [ ] 2014-9-18 (atLeastOne)
++ [ ] 2014-7-3 (Exchanger)
++ [ ] 2014-7-28 (PriorityExecutor)
++ [ ] 2014-3-5 (PeriodicTask)
++ [ ] 2014-11-28 (Alarm)
++ [ ] 2014-1-31 (PostOfficeQueue)
++ [ ] 2013-9-25 (executeWithDeadline)
++ [ ] 2013-7-9 (processArray)
++ [ ] 2013-6-25 (MultiBuffer)
++ [ ] 2013-3-22 (Shared average)
++ [ ] 2013-2-11 (Concurrent filter)
++ [ ] 2013-12-16 (concurrentMax)
++ [ ] 2013-1-22 (Share Object)
++ [ ] 2012-9-3 (Mistery thread)
++ [ ] 2012-7-9 (Mistery thread)
++ [ ] 2012-6-18 (ThreadRace)
++ [ ] 2011-3-4 (MultiProgressBar)
++ [ ] 2011-2-7 (VoteBox)
++ [ ] 2010-9-14 (ExecuteInParallel)
++ [ ] 2010-6-28 (QueueOfTasks)
++ [ ] 2009-9-18 (Auction)
++ [ ] 2009-7-9 (Elevator)
++ [ ] 2008-9-8 (RunnableWithArg)
++ [ ] 2008-7-9 (MutexWithLog)
++ [ ] 2008-6-19 (RunnableWithProgress)
++ [ ] 2008-3-27 (DelayIterator)
++ [ ] 2007-7-20 (Simulazione di ParkingLot)
++ [ ] 2007-6-29 (Highway)
++ [ ] 2006-9-15 (?)
+* Iteratori e ciclo /for-each/
+Start on page 193.
+** Exercise [0%]
++ [ ] 2014-11-3 (CrazyIterator)
++ [ ] 2009-9-18 (IncreasingSubsequences)
++ [ ] 2008-4-21 (CrazyIterator)
++ [ ] 2008-2-25 (MyFor)
++ [ ] 2007-9-17 (Selector)
++ [ ] 2007-7-20 (CommonDividers)
++ [ ] 2007-4-26 (AncestorIterator)
++ [ ] 2007-2-23 (Primes)
++ [ ] 2006-9-15 (SuperclassIterator)
++ [ ] 2005-7-17 (TwoSteps)
++ [ ] 2006-4-27 (BinaryTreePreIterator)
+* Criteri di ordinamento tra oggetti
+Start on page 197.
+** Exercise [3%]
++ [ ] 2019-4-29 (Rotating list comparator)
++ [ ] 2019-4-29 (Rotating list comparator)
++ [ ] 2018-6-20 (Date)
++ [ ] 2018-5-2 (Product)
++ [ ] 2017-6-21 (Sphere Comparator)
++ [ ] 2016-7-21 (Book)
++ [ ] 2016-6-22 (Set of Integer comparator)
++ [ ] 2016-4-21 (Engine Comparator)
++ [ ] 2015-7-8 (SetComparator)
++ [ ] 2015-2-5 (Box)
++ [ ] 2015-1-20 (DataSeries)
++ [ ] 2014-9-18 (EmployeeComparator)
++ [ ] 2014-7-28 (Playlist)
++ [ ] 2014-11-3 (Pizza)
++ [ ] 2013-6-25 (String comparator)
++ [ ] 2013-1-22 (MaxBox)
++ [ ] 2012-5-18 (Point)
++ [ ] 2010-9-14 (Time)
++ [ ] 2010-6-28 (PartiallyComparable)
++ [ ] 2010-5-3 (Rebus)
++ [ ] 2010-2-24 (Version)
++ [ ] 2010-11-30 (?)
++ [ ] 2009-9-18 (IncreasingSubsequences)
++ [ ] 2009-4-23 (Circle)
++ [ ] 2009-11-27 (Triangle 2)
++ [ ] 2009-1-15 (?)
++ [ ] 2008-1-30 (Sorter)
++ [X] 2007-9-17 (FunnyOrder)
++ [ ] 2007-6-29 (Rational)
 * Exercise to improve [1/1]
 + [X] 2018-10-18 (Component & Configuration)
     Instead of use the HashMap in Configuration, use the ad hoc map for enums.
