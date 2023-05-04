@@ -2,7 +2,7 @@ public enum Cardinal {
     N, NNE, NE, NEE, E, SEE, SE, SSE, S, SSO, SO, SOO, O, NOO, NO, NNO;
 
     public boolean isOpposite(Cardinal c) {
-        return values()[ordinal() + 8 % 16] == c;
+        return ordinal() + 8 % 16 == c.ordinal();
     }
 
     public static Cardinal mix(Cardinal c1, Cardinal c2) {

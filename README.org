@@ -140,8 +140,8 @@ Start on page 53.
 + [ ] 2008-9-8, diff between abstract and interface.
 + [ ] 2008-4-21 (Triangolo)
 + [ ] 2008-3-27 (Impianto e Apparecchio)
-+ [ ] 2008-2-25
-+ [ ] 2008-1-30
++ [ ] 2008-2-25 (?)
++ [ ] 2008-1-30 (?)
 + [ ] 2007-9-17 (Aereo)
 + [ ] 2007-7-20 (ParkingLot)
 + [ ] 2007-6-29 (Rational)

@@ -20,6 +20,7 @@ public class CommonKeys {
         System.out.println(commonKeysC(m1, m2));
         System.out.println(CommonKeys.<Integer>commonKeysD(m1, m2));
         System.out.println(CommonKeys.<Integer>commonKeysE(m1, m2));
+        System.out.println(CommonKeys.<Integer>commonKeysBest(m1, m2));
     }
 
     // funzionale, non completa, corretta, non posso modificare la mappa, abbastanza
@@ -78,6 +79,16 @@ public class CommonKeys {
         for (Object o : m1.keySet()) {
             if (m2.containsKey(o)) {
                 set.add(o);
+            }
+        }
+        return set;
+    }
+
+    public static <T> Set<T> commonKeysBest(Map<? extends T, ?> m1, Map<?, ?> m2) {
+        Set<T> set = new HashSet<>();
+        for (T t : m1.keySet()) {
+            if (m2.containsKey(t)) {
+                set.add(t);
             }
         }
         return set;

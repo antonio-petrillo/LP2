@@ -10,8 +10,8 @@ public class Driver {
                 a.addChild(c);
                 b.addChild(d);
                 c.addChild(e);
-                System.out.println(Person.areSiblings(a, b));
-                System.out.println(Person.areSiblings(c, d));
+                System.out.println(Person.areSiblings(a, b)); // false
+                System.out.println(Person.areSiblings(c, d)); // true
         }
 
 }

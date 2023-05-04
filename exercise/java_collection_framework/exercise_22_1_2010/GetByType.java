@@ -18,10 +18,15 @@ public class GetByType {
         System.out.println(getByTypeV2(l, Exception.class));
     }
 
-    // best version
-    // better than:
-    // public static <T> T getByTypeV1(Collection<T> collection, Class<?> c) {
-    // because I can't modify collection
+    public static <T> T getByTypeV3(Collection<? extends T> collection, Class<? super T> c) {
+        for (T t : collection) {
+            if (t.getClass() == c) {
+                return t;
+            }
+        }
+        return null;
+    }
+
     public static <T> T getByTypeV1(Collection<? extends T> collection, Class<?> c) {
         for (T t : collection) {
             if (t.getClass() == c) {
@@ -31,7 +36,6 @@ public class GetByType {
         return null;
     }
 
-    // simplest version
     public static Object getByTypeV2(Collection<?> collection, Class<?> c) {
         for (Object o : collection) {
             if (o.getClass() == c) {

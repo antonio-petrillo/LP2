@@ -1,6 +1,12 @@
 public enum Cardinal {
     N, NNE, NE, NEE, E, SEE, SE, SSE, S, SSO, SO, SOO, O, NOO, NO, NNO;
 
+    private Cardinal opp;
+
+    static {
+        N.opp = S;
+    }
+
     public boolean isOpposite(Cardinal c) {
         return values()[ordinal() + 8 % 16] == c;
     }
