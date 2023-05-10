@@ -2,46 +2,51 @@ import java.util.*;
 
 public class Container {
 
-    private Group group;
+    private Node head;
 
     public Container() {
-        group = new Group(this);
+        head = new Node();
     }
 
-    private static class Group {
-        double amountPerContainer;
-        Set<Container> members;
-
-        Group(Container c) {
-            members = new HashSet<>();
-            members.add(c);
-        }
+    // O(1)
+    // cannot check in constant time if a container is already connected
+    // if I connect an already connected Container the circular list will be
+    // separated
+    public void connectTo(Container other) {
+        other.head.prev.next = head;
+        head.prev.next = other.head;
+        other.head.prev = head.prev;
+        head.prev = other.head.prev;
     }
 
     // O(1)
     public void addWater(double amount) {
-        group.amountPerContainer += amount / group.members.size();
+        head.amount += amount;
     }
 
     // O(n)
-    public void connectTo(Container other) {
-        if (group.members == other.group.members) {
-            return;
+    public double getAmount() {
+        double total = head.amount;
+        int size = 1;
+
+        for (Node iter = head.next; iter != head; iter = iter.next) {
+            total += iter.amount;
+            size++;
         }
-        int size1 = group.members.size();
-        int size2 = other.group.members.size();
-        double newAmount = (group.amountPerContainer * size1 + other.group.amountPerContainer * size2)
-                / (size1 + size2);
-        group.amountPerContainer = newAmount;
-        group.members.addAll(other.group.members);
-        for (var c : other.group.members) {
-            c.group = group;
-        }
+
+        return total / size;
     }
 
-    // O(1)
-    public double getAmount() {
-        return group.amountPerContainer;
+    private static class Node {
+        Node next;
+        Node prev;
+        double amount;
+
+        Node() {
+            next = this;
+            prev = this;
+            amount = 0;
+        }
     }
 
 }

@@ -1,0 +1,23 @@
+#+title: Notes
+
+* Memory layout of Reference
+** Container
+Each object has an overhead of 12 bytes.
++ 4 for the pointer the object in memory
++ 4 bytes for the poiter to the class src_java{Class}
++ 4 bytes for the /monitor/ assigned by the jvm (used by the ~synchronized~ keyword)
++ Other: the word in memory are aligned based on the architecture of the cpu, this could mean that there could be /padding/, other waste of memory
++ Group: 4 bytes for the reference to the Object ~Group~
++ NOTE: this apply for every ~Object~ not only for ~Container~
+** HashSet
+Used by the group to store the Container connected inside this group.
++ 12 bytes that comes with every Object
+*** Array of /buckets/
++ 12 bytes that comes with every Object
++ The size of the array used inside the hashset
++ The static type of their cells
++ The actual size of the array (basically ~array.length~)
+*** HashSet Entry
++ 12 bytes that comes with every Object
+*** Visually
+[[./mem-layout-reference.png]]
