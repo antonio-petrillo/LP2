@@ -1,4 +1,5 @@
 #+title: Logbook LP2
+#+STARTUP: overview
 
 * Repo LP2
 Repo for the course LP2 by [[http://wpage.unina.it/m.faella/index.html?page=Didattica/lp2_2223][Marco Faella]].
@@ -222,10 +223,10 @@ Start on page 69 (nice).
 + [ ] 2006-6-26 (?)
 * Scelta della firma
 Start on page 95.
-** Exercise [40%]
+** Exercise [46%]
 + [X] 2022-1-28 (combine)
-+ [ ] 2021-9-24 (countOccurrences)
-+ [ ] 2021-7-26 (overridingMap)
++ [X] 2021-9-24 (countOccurrences)
++ [X] 2021-7-26 (overridingMap)
 + [ ] 2021-10-26 (countInBetweens)
 + [X] 2020-2-27 (keysWithHighestValue)
 + [ ] 2019-9-20 (disjoin)
@@ -255,9 +256,9 @@ Start on page 95.
 + [ ] 2013-12-16 (agree)
 * Trova l'errore
 Start on page 105.
-** Exercise [0%]
-+ [ ] 2007-7-20
-+ [ ] 2007-6-20
+** Exercise [14%]
++ [X] 2007-7-20
++ [ ] 2007-6-29
 + [ ] 2007-4-26
 + [ ] 2006-9-15
 + [ ] 2006-7-17
@@ -265,35 +266,35 @@ Start on page 105.
 + [ ] 2006-4-27
 * Design by contract
 Start on page 109.
-** Exercise [0%]
-+ [ ] 2018-5-2
-+ [ ] 2016-4-21
+** Exercise [100%]
++ [X] 2018-5-2 (Merge)
++ [X] 2016-4-21 (Count)
 * Programmazione parametrica (generics)
 Start on page 111.
-** Exercise [6%]
-+ [ ] 2020-2-27 (Accumulator)
-+ [ ] 2019-2-15 (Range)
+** Exercise [50%]
++ [X] 2020-2-27 (Accumulator)
++ [X] 2019-2-15 (Range)
 + [ ] 2017-4-26 (Container)
-+ [ ] 2016-7-21 (?)
-+ [ ] 2016-1-27 (?)
++ [X] 2016-7-21 (?)
++ [X] 2016-1-27 (?)
 + [ ] 2015-1-20 (Relation)
 + [ ] 2013-4-29 (Pair)
-+ [ ] 2012-6-18 (BoundedMap)
++ [X] 2012-6-18 (BoundedMap)
 + [ ] 2013-3-4 (?)
-+ [ ] 2011-2-7 (MakeMap)
++ [X] 2011-2-7 (MakeMap)
 + [ ] 2010-9-14 (Intersect)
 + [ ] 2010-7-26 (?)
-+ [ ] 2010-11-30 (SelectKeys)
++ [X] 2010-11-30 (SelectKeys)
 + [ ] 2009-7-9 (?)
 + [ ] 2009-6-19 (?)
-+ [ ] 2009-2-19 (Interleave)
-+ [ ] 2009-1-29 (Split)
-+ [ ] 2008-2-25 (BoolExpr)
-+ [ ] 2008-2-25 (MyFor)
++ [X] 2009-2-19 (Interleave)
++ [X] 2009-1-29 (Split)
++ [X] 2008-2-25 (BoolExpr)
++ [X] 2008-2-25 (MyFor)
 + [ ] 2008-1-30 (Sorter)
-+ [ ] 2007-9-17 (Selector)
++ [X] 2007-9-17 (Selector)
 + [X] 2007-9-17 (FunnyOrder)
-+ [ ] 2007-7-20 (CommonDivisor)
++ [X] 2007-7-20 (CommonDivisor)
 + [ ] 2007-7-20 (ParkingLot)
 + [ ] 2007-7-20 (?)
 + [X] 2007-6-29 Implement Generic Field (DoubleField) and Polynomial
@@ -445,16 +446,16 @@ Start on page 163.
 + [ ] 2006-9-15
 * Riflessione
 Start on page 167.
-** Exercise [14%]
+** Exercise [83%]
 + [ ] 2022-1-28
-+ [ ] 2022-1-26
-+ [ ] 2021-10-26
++ [X] 2022-1-26
++ [X] 2021-10-26
 + [X] 2010-1-22 (GetByType)
-+ [ ] 2009-11-27 (CountByType)
-+ [ ] 2006-9-15 (SuperclassIterator)
++ [X] 2009-11-27 (CountByType)
++ [X] 2006-9-15 (SuperclassIterator)
 * Multi-threading
 Start on page 169.
-** Exercise [0%]
+** Exercise [8%]
 + [ ] 2021-9-24 (MysteryThread5)
 + [ ] 2021-7-26 (?)
 + [ ] 2021-10-26 (Missing synch 3)
@@ -490,7 +491,7 @@ Start on page 169.
 + [ ] 2014-9-18 (atLeastOne)
 + [ ] 2014-7-3 (Exchanger)
 + [ ] 2014-7-28 (PriorityExecutor)
-+ [ ] 2014-3-5 (PeriodicTask)
++ [X] 2014-3-5 (PeriodicTask)
 + [ ] 2014-11-28 (Alarm)
 + [ ] 2014-1-31 (PostOfficeQueue)
 + [ ] 2013-9-25 (executeWithDeadline)
@@ -500,7 +501,7 @@ Start on page 169.
 + [ ] 2013-2-11 (Concurrent filter)
 + [ ] 2013-12-16 (concurrentMax)
 + [ ] 2013-1-22 (Share Object)
-+ [ ] 2012-9-3 (Mistery thread)
++ [X] 2012-9-3 (Mistery thread)
 + [ ] 2012-7-9 (Mistery thread)
 + [ ] 2012-6-18 (ThreadRace)
 + [ ] 2011-3-4 (MultiProgressBar)
@@ -511,25 +512,26 @@ Start on page 169.
 + [ ] 2009-7-9 (Elevator)
 + [ ] 2008-9-8 (RunnableWithArg)
 + [ ] 2008-7-9 (MutexWithLog)
-+ [ ] 2008-6-19 (RunnableWithProgress)
-+ [ ] 2008-3-27 (DelayIterator)
++ [X] 2008-6-19 (RunnableWithProgress)
++ [X] 2008-3-27 (DelayIterator)
 + [ ] 2007-7-20 (Simulazione di ParkingLot)
 + [ ] 2007-6-29 (Highway)
 + [ ] 2006-9-15 (?)
++ [X] ? (Interruptor)
 * Iteratori e ciclo /for-each/
 Start on page 193.
-** Exercise [0%]
-+ [ ] 2014-11-3 (CrazyIterator)
-+ [ ] 2009-9-18 (IncreasingSubsequences)
-+ [ ] 2008-4-21 (CrazyIterator)
-+ [ ] 2008-2-25 (MyFor)
-+ [ ] 2007-9-17 (Selector)
-+ [ ] 2007-7-20 (CommonDividers)
+** Exercise [72%]
++ [X] 2014-11-3 (CrazyIterator)
++ [X] 2009-9-18 (IncreasingSubsequences)
++ [X] 2008-4-21 (CrazyIterator)
++ [X] 2008-2-25 (MyFor)
++ [X] 2007-9-17 (Selector)
++ [X] 2007-7-20 (CommonDividers)
 + [ ] 2007-4-26 (AncestorIterator)
 + [ ] 2007-2-23 (Primes)
-+ [ ] 2006-9-15 (SuperclassIterator)
++ [X] 2006-9-15 (SuperclassIterator)
 + [ ] 2005-7-17 (TwoSteps)
-+ [ ] 2006-4-27 (BinaryTreePreIterator)
++ [X] 2006-4-27 (BinaryTreePreIterator)
 * Criteri di ordinamento tra oggetti
 Start on page 197.
 ** Exercise [3%]
