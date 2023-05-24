@@ -19,7 +19,7 @@ Start on page 5.
 + [X] 2014-4-28 Shape part 2
 + [X] 2014-3-5  (PeriodicTask)
 + [X] 2013-4-29 Pair
-+ [X] 2013-3-22 Circl3
++ [X] 2013-3-22 Circle
 + [X] 2013-2-11 MultiSet
 + [X] 2013-1-22 Insieme id Lettere
 + [X] 2012-9-3  Anagrammi
@@ -341,16 +341,16 @@ Start on page 127.
 + [ ] 2008-4-21 (Triangolo)
 * Classi enumerate
 Start on page 133.
-** Exercise [8%]
-+ [ ] 2017-1-25 (LengthUnit)
-+ [ ] 2014-7-3 (NutrInfo)
-+ [ ] 2014-3-5 (Status)
-+ [ ] 2014-11-3 (Pizza)
-+ [ ] 2014-11-128 (Coin)
-+ [ ] 2013-7-9 (BloodType)
-+ [ ] 2013-12-16 (Note)
-+ [ ] 2012-7-9 (NumberType)
-+ [ ] 2012-4-23 (Panino)
+** Exercise [90%]
++ [X] 2017-1-25 (LengthUnit)
++ [X] 2014-7-3 (NutrInfo)
++ [X] 2014-3-5 (Status)
++ [X] 2014-11-3 (Pizza)
++ [X] 2014-11-128 (Coin)
++ [X] 2013-7-9 (BloodType)
++ [X] 2013-12-16 (Note)
++ [X] 2012-7-9 (NumberType)
++ [X] 2012-4-23 (Panino)
 + [ ] 2010-7-26 (TetrisPiece)
 + [X] 2009-6-19 (Cardinal)
 * Vero o Falso
@@ -455,7 +455,7 @@ Start on page 167.
 + [X] 2006-9-15 (SuperclassIterator)
 * Multi-threading
 Start on page 169.
-** Exercise [8%]
+** Exercise [9%]
 + [ ] 2021-9-24 (MysteryThread5)
 + [ ] 2021-7-26 (?)
 + [ ] 2021-10-26 (Missing synch 3)
@@ -510,7 +510,7 @@ Start on page 169.
 + [ ] 2010-6-28 (QueueOfTasks)
 + [ ] 2009-9-18 (Auction)
 + [ ] 2009-7-9 (Elevator)
-+ [ ] 2008-9-8 (RunnableWithArg)
++ [X] 2008-9-8 (RunnableWithArg)
 + [ ] 2008-7-9 (MutexWithLog)
 + [X] 2008-6-19 (RunnableWithProgress)
 + [X] 2008-3-27 (DelayIterator)
