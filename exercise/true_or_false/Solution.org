@@ -1,0 +1,50 @@
+#+title: Solution
+
+* Risposte agli esercizi
+** 27_2_2020
++ false
++ true
++ true
++ true
++ true
++ false
+** 24_1_2020
++ false
++ IDK (galse)
++ true
++ false
++ true
++ false
+** 20_9_2019
++ true
++ true
++ true
++ true
++ true
++ true
+** 23_7_2019
++ true
++ true
++ true
++ true
++ true
++ IDK
+** 24_6_2019
++ IDK yet
++ IDK yet
++ true
++ true
++ true
++ false
+** 19_3_2019
++ true
++ false
++ true
++ true
++ true
+** 15_2_2019
++ false
++ false
++ true
++ true
++ true
