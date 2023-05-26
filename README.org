@@ -3,7 +3,7 @@
 
 * Repo LP2
 Repo for the course LP2 by [[http://wpage.unina.it/m.faella/index.html?page=Didattica/lp2_2223][Marco Faella]].
-* Equals
+* DONE Equals
 Start on page 5.
 ** Exercise [100%]
 + [X] 2020-1-24 Cart
@@ -114,7 +114,7 @@ Start on page 9.
 + [ ] 2006-7-17
 + [ ] 2006-6-26
 + [ ] 2006-4-27
-* Esercizi elementari
+* DONE Esercizi elementari
 Start on page 53.
 ** Exercise [40%]
 + [ ] 2022-2-26 (Exchange)
@@ -154,7 +154,7 @@ Start on page 53.
 + [ ] 2006-7-17 (Moto Accelerato)
 + [ ] 2006-6-26 (Moto Bidimensionale)
 + [ ] 2006-4-27 (Average)
-* Java Collection framework
+* DONE Java Collection framework
 Start on page 69 (nice).
 ** Exercise [40%]
 + [X] 2020-1-24 (Product & Cart)
@@ -221,7 +221,7 @@ Start on page 69 (nice).
 + [ ] 2006-6-26 (Pubblication)
 + [X] 2006-6-26 (DoubleQueue)
 + [ ] 2006-6-26 (?)
-* Scelta della firma
+* DONE Scelta della firma
 Start on page 95.
 ** Exercise [46%]
 + [X] 2022-1-28 (combine)
@@ -264,12 +264,12 @@ Start on page 105.
 + [ ] 2006-7-17
 + [ ] 2006-6-26
 + [ ] 2006-4-27
-* Design by contract
+* DONE Design by contract
 Start on page 109.
 ** Exercise [100%]
 + [X] 2018-5-2 (Merge)
 + [X] 2016-4-21 (Count)
-* Programmazione parametrica (generics)
+* DONE Programmazione parametrica (generics)
 Start on page 111.
 ** Exercise [53%]
 + [X] 2020-2-27 (Accumulator)
@@ -322,7 +322,7 @@ Start on page 121.
 + [ ] 2008-3-27
 + [ ] 2008-2-25
 + [ ] 2008-1-30
-* Classi interne
+* DONE Classi interne
 Start on page 127.
 ** Exercise [66%]
 + [X] 2021-9-24 (InternalLayout2)
@@ -340,7 +340,7 @@ Start on page 127.
 + [ ] 2009-11-27 (?)
 + [ ] 2009-1-29 (Interval)
 + [X] 2008-4-21 (Triangolo)
-* Classi enumerate
+* DONE Classi enumerate
 Start on page 133.
 ** Exercise [90%]
 + [X] 2017-1-25 (LengthUnit)
@@ -436,7 +436,7 @@ Start on page 137.
 + [ ] 2006-9-15
 + [ ] 2006-7-17
 + [ ] 2006-6-26
-* Clonazione
+* DONE Clonazione
 Start on page 163.
 ** Exercise [100%]
 + [X] 2016-7-21 (Book)
@@ -445,7 +445,7 @@ Start on page 163.
 + [X] 2010-11-30 (Segment)
 + [X] 2010-1-22 (?)
 + [X] 2006-9-15 (TreeType)
-* Riflessione
+* DONE Riflessione
 Start on page 167.
 ** Exercise [83%]
 + [ ] 2022-1-28
@@ -519,7 +519,7 @@ Start on page 169.
 + [ ] 2007-6-29 (Highway)
 + [ ] 2006-9-15 (?)
 + [X] ? (Interruptor)
-* Iteratori e ciclo /for-each/
+* DONE Iteratori e ciclo /for-each/
 Start on page 193.
 ** Exercise [72%]
 + [X] 2014-11-3 (CrazyIterator)
@@ -533,7 +533,7 @@ Start on page 193.
 + [X] 2006-9-15 (SuperclassIterator)
 + [ ] 2005-7-17 (TwoSteps)
 + [X] 2006-4-27 (BinaryTreePreIterator)
-* Criteri di ordinamento tra oggetti
+* DONE Criteri di ordinamento tra oggetti
 Start on page 197.
 ** Exercise [62%]
 + [X] 2019-4-29 (Rotating list comparator)
