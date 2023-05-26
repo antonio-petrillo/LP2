@@ -3,9 +3,8 @@
 
 * Repo LP2
 Repo for the course LP2 by [[http://wpage.unina.it/m.faella/index.html?page=Didattica/lp2_2223][Marco Faella]].
-* DONE Equals
+* DONE Equals [100%]
 Start on page 5.
-** Exercise [100%]
 + [X] 2020-1-24 Cart
 + [X] 2019-7-23 Student
 + [X] 2019-6-24 Box
@@ -28,9 +27,8 @@ Start on page 5.
 + [X] 2008-7-9  Z
 + [X] 2008-4-21 Triangoli
 + [X] 2007-2-7  Monomio
-* Dynamic binding
+* Dynamic binding [12%]
 Start on page 9.
-** Exercise [12%]
 + [X] 2019-7-23
 + [X] 2019-6-24
 + [X] 2019-4-29
@@ -114,9 +112,8 @@ Start on page 9.
 + [ ] 2006-7-17
 + [ ] 2006-6-26
 + [ ] 2006-4-27
-* DONE Esercizi elementari
+* DONE Esercizi elementari  [40%]
 Start on page 53.
-** Exercise [40%]
 + [ ] 2022-2-26 (Exchange)
 + [X] 2021-9-24 (Radio)
 + [X] 2021-7-26 (GreenPass)
@@ -154,9 +151,8 @@ Start on page 53.
 + [ ] 2006-7-17 (Moto Accelerato)
 + [ ] 2006-6-26 (Moto Bidimensionale)
 + [ ] 2006-4-27 (Average)
-* DONE Java Collection framework
+* DONE Java Collection framework  [40%]
 Start on page 69 (nice).
-** Exercise [40%]
 + [X] 2020-1-24 (Product & Cart)
 + [X] 2020-6-24 (SortedList)
 + [X] 2019-04-29 (RotatingList)
@@ -254,9 +250,8 @@ Start on page 95.
 + [ ] 2013-7-9 (isSorted)
 + [ ] 2013-6-25 (Concat)
 + [ ] 2013-12-16 (agree)
-* Trova l'errore
+* Trova l'errore [14%]
 Start on page 105.
-** Exercise [14%]
 + [X] 2007-7-20
 + [ ] 2007-6-29
 + [ ] 2007-4-26
@@ -264,14 +259,12 @@ Start on page 105.
 + [ ] 2006-7-17
 + [ ] 2006-6-26
 + [ ] 2006-4-27
-* DONE Design by contract
+* DONE Design by contract [100%]
 Start on page 109.
-** Exercise [100%]
 + [X] 2018-5-2 (Merge)
 + [X] 2016-4-21 (Count)
-* DONE Programmazione parametrica (generics)
+* DONE Programmazione parametrica (generics) [53%]
 Start on page 111.
-** Exercise [53%]
 + [X] 2020-2-27 (Accumulator)
 + [X] 2019-2-15 (Range)
 + [ ] 2017-4-26 (Container)
@@ -302,9 +295,8 @@ Start on page 111.
 + [ ] 2007-2-23 (Inventory)
 + [ ] 2006-7-17 (?)
 + [ ] 2006-6-26 (?)
-* Classe mancante
+* Classe mancante [0%]
 Start on page 121.
-** Exercise [0%]
 + [ ] 2019-10-9
 + [ ] 2016-1-27
 + [ ] 2011-3-4
@@ -322,9 +314,8 @@ Start on page 121.
 + [ ] 2008-3-27
 + [ ] 2008-2-25
 + [ ] 2008-1-30
-* DONE Classi interne
+* DONE Classi interne [66%]
 Start on page 127.
-** Exercise [66%]
 + [X] 2021-9-24 (InternalLayout2)
 + [X] 2021-7-26 (InternalLayout1)
 + [X] 2019-9-20 (Microwave)
@@ -340,9 +331,8 @@ Start on page 127.
 + [ ] 2009-11-27 (?)
 + [ ] 2009-1-29 (Interval)
 + [X] 2008-4-21 (Triangolo)
-* DONE Classi enumerate
+* DONE Classi enumerate [90%]
 Start on page 133.
-** Exercise [90%]
 + [X] 2017-1-25 (LengthUnit)
 + [X] 2014-7-3 (NutrInfo)
 + [X] 2014-3-5 (Status)
@@ -354,9 +344,8 @@ Start on page 133.
 + [X] 2012-4-23 (Panino)
 + [ ] 2010-7-26 (TetrisPiece)
 + [X] 2009-6-19 (Cardinal)
-* Vero o Falso
+* Vero o Falso [10%]
 Start on page 137.
-** Exercise [10%]
 + [X] 2020-2-27
 + [X] 2020-1-24
 + [X] 2019-9-20
@@ -436,27 +425,24 @@ Start on page 137.
 + [ ] 2006-9-15
 + [ ] 2006-7-17
 + [ ] 2006-6-26
-* DONE Clonazione
+* DONE Clonazione [100%]
 Start on page 163.
-** Exercise [100%]
 + [X] 2016-7-21 (Book)
 + [X] 2013-1-22 (Insieme di lettere)
 + [X] 2012-9-3 (Anagrammi)
 + [X] 2010-11-30 (Segment)
 + [X] 2010-1-22 (?)
 + [X] 2006-9-15 (TreeType)
-* DONE Riflessione
+* DONE Riflessione [83%]
 Start on page 167.
-** Exercise [83%]
 + [ ] 2022-1-28
 + [X] 2022-1-26
 + [X] 2021-10-26
 + [X] 2010-1-22 (GetByType)
 + [X] 2009-11-27 (CountByType)
 + [X] 2006-9-15 (SuperclassIterator)
-* Multi-threading
+* Multi-threading [11%]
 Start on page 169.
-** Exercise [11%]
 + [ ] 2021-9-24 (MysteryThread5)
 + [ ] 2021-7-26 (?)
 + [ ] 2021-10-26 (Missing synch 3)
@@ -519,9 +505,8 @@ Start on page 169.
 + [ ] 2007-6-29 (Highway)
 + [ ] 2006-9-15 (?)
 + [X] ? (Interruptor)
-* DONE Iteratori e ciclo /for-each/
+* DONE Iteratori e ciclo /for-each/ [72%]
 Start on page 193.
-** Exercise [72%]
 + [X] 2014-11-3 (CrazyIterator)
 + [X] 2009-9-18 (IncreasingSubsequences)
 + [X] 2008-4-21 (CrazyIterator)
@@ -533,9 +518,8 @@ Start on page 193.
 + [X] 2006-9-15 (SuperclassIterator)
 + [ ] 2005-7-17 (TwoSteps)
 + [X] 2006-4-27 (BinaryTreePreIterator)
-* DONE Criteri di ordinamento tra oggetti
+* DONE Criteri di ordinamento tra oggetti [62%]
 Start on page 197.
-** Exercise [62%]
 + [X] 2019-4-29 (Rotating list comparator)
 + [X] 2019-4-29 (Rotating list comparator) questo é un refuso
 + [X] 2018-6-20 (Date)
