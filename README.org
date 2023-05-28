@@ -250,15 +250,15 @@ Start on page 95.
 + [ ] 2013-7-9 (isSorted)
 + [ ] 2013-6-25 (Concat)
 + [ ] 2013-12-16 (agree)
-* Trova l'errore [14%]
+* DONE Trova l'errore [100%]
 Start on page 105.
 + [X] 2007-7-20
-+ [ ] 2007-6-29
-+ [ ] 2007-4-26
-+ [ ] 2006-9-15
-+ [ ] 2006-7-17
-+ [ ] 2006-6-26
-+ [ ] 2006-4-27
++ [X] 2007-6-29
++ [X] 2007-4-26
++ [X] 2006-9-15
++ [X] 2006-7-17
++ [X] 2006-6-26
++ [X] 2006-4-27
 * DONE Design by contract [100%]
 Start on page 109.
 + [X] 2018-5-2 (Merge)
@@ -295,15 +295,15 @@ Start on page 111.
 + [ ] 2007-2-23 (Inventory)
 + [ ] 2006-7-17 (?)
 + [ ] 2006-6-26 (?)
-* Classe mancante [0%]
+* DONE Classe mancante [41%]
 Start on page 121.
-+ [ ] 2019-10-9
-+ [ ] 2016-1-27
-+ [ ] 2011-3-4
-+ [ ] 2010-7-26
-+ [ ] 2010-1-22
-+ [ ] 2009-9-18
-+ [ ] 2009-7-9
++ [X] 2019-10-9
++ [X] 2016-1-27
++ [X] 2011-3-4
++ [X] 2010-7-26
++ [X] 2010-1-22
++ [X] 2009-9-18
++ [X] 2009-7-9
 + [ ] 2009-6-19
 + [ ] 2009-4-23
 + [ ] 2009-2-19
@@ -441,11 +441,11 @@ Start on page 167.
 + [X] 2010-1-22 (GetByType)
 + [X] 2009-11-27 (CountByType)
 + [X] 2006-9-15 (SuperclassIterator)
-* Multi-threading [11%]
+* Multi-threading [22%]
 Start on page 169.
-+ [ ] 2021-9-24 (MysteryThread5)
-+ [ ] 2021-7-26 (?)
-+ [ ] 2021-10-26 (Missing synch 3)
++ [X] 2021-9-24 (MysteryThread6)
++ [X] 2021-7-26 (?)
++ [X] 2021-10-26 (Missing synch 3)
 + [ ] 2020-2-27 (MysteryThread8)
 + [ ] 2020-1-24 (MysteryThread7)
 + [ ] 2019-9-20 (MysteryThread6)
@@ -455,10 +455,10 @@ Start on page 169.
 + [ ] 2019-10-9 (Shop)
 + [ ] 2019-1-23 (Guess The Number)
 + [ ] 2018-9-17 (SharedCounter)
-+ [ ] 2018-7-19 (SafeSet)
++ [X] 2018-7-19 (SafeSet)
 + [ ] 2018-7-19 (MysteryThread5)
 + [ ] 2018-6-20 (PeriodicExecutor)
-+ [ ] 2016-2-22 (Two Threads)
++ [X] 2016-2-22 (Two Threads)
 + [ ] 2018-1-24 (Shared total)
 + [ ] 2017-7-20 (MysteryThread5)
 + [ ] 2017-6-21 (Market)
@@ -492,8 +492,8 @@ Start on page 169.
 + [ ] 2012-7-9 (Mistery thread)
 + [ ] 2012-6-18 (ThreadRace)
 + [ ] 2011-3-4 (MultiProgressBar)
-+ [ ] 2011-2-7 (VoteBox)
-+ [ ] 2010-9-14 (ExecuteInParallel)
++ [X] 2011-2-7 (VoteBox)
++ [X] 2010-9-14 (ExecuteInParallel)
 + [ ] 2010-6-28 (QueueOfTasks)
 + [ ] 2009-9-18 (Auction)
 + [ ] 2009-7-9 (Elevator)
@@ -549,6 +549,8 @@ Start on page 197.
 + [X] 2008-1-30 (Sorter)
 + [X] 2007-9-17 (FunnyOrder)
 + [X] 2007-6-29 (Rational)
-* Exercise to improve [1/1]
+* Exercise to improve [1/2]
 + [X] 2018-10-18 (Component & Configuration)
     Instead of use the HashMap in Configuration, use the ad hoc map for enums.
++ [ ] 2010-9-14 (ExecuteInParallel)
+    Avoid the deadlock
