@@ -12,11 +12,12 @@ public class ExecuteInParallel {
     public static void executeInParallel(Runnable[] runnables, int k) {
         Thread[] consumers = new Thread[k];
         BlockingQueue<Runnable> q = new ArrayBlockingQueue<>(k);
+        Thread producer = Thread.currentThread();
         IntStream
                 .range(0, k)
                 .forEach(i -> {
                     consumers[i] = new Thread(() -> {
-                        while (true) {
+                        while (producer.isAlive() || !q.isEmpty()) {
                             try {
                                 q.take().run();
                             } catch (InterruptedException ie) {

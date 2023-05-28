@@ -549,8 +549,8 @@ Start on page 197.
 + [X] 2008-1-30 (Sorter)
 + [X] 2007-9-17 (FunnyOrder)
 + [X] 2007-6-29 (Rational)
-* Exercise to improve [1/2]
+* Exercise to improve [2/2]
 + [X] 2018-10-18 (Component & Configuration)
     Instead of use the HashMap in Configuration, use the ad hoc map for enums.
-+ [ ] 2010-9-14 (ExecuteInParallel)
-    Avoid the deadlock
++ [X] 2010-9-14 (ExecuteInParallel)
+    Add a proper way to terminate the consumers theads
