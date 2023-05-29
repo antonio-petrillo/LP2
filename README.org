@@ -553,4 +553,5 @@ Start on page 197.
 + [X] 2018-10-18 (Component & Configuration)
     Instead of use the HashMap in Configuration, use the ad hoc map for enums.
 + [X] 2010-9-14 (ExecuteInParallel)
-    Add a proper way to terminate the consumers theads
+    Add a proper way to terminate the consumers theads.
+    DONE, see the v3.
