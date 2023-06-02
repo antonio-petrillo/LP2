@@ -7,61 +7,56 @@ public class VoteBox {
     private int votes = 0;
 
     private Set<Thread> alreadyVoted = new HashSet<>();
+    private Object monitor = new Object();
 
     public VoteBox(int numOfVoters) {
         this.numOfVoters = numOfVoters;
     }
 
-    public synchronized void vote(boolean vote) {
-        Thread t = Thread.currentThread();
-        if (alreadyVoted.contains(t)) {
-            throw new RuntimeException(t.getName() + " already voted");
+    public void vote(boolean vote) {
+        synchronized (monitor) {
+            Thread t = Thread.currentThread();
+            if (alreadyVoted.contains(t)) {
+                throw new RuntimeException(t.getName() + " already voted");
+            }
+            if (alreadyVoted.size() == numOfVoters) {
+                throw new RuntimeException(t.getName() + " all threads already voted");
+            }
+            System.out.println(t.getName() + " just voted");
+            if (vote) {
+                votes++;
+            } else {
+                votes--;
+            }
+            alreadyVoted.add(t);
+            monitor.notifyAll();
         }
-        if (alreadyVoted.size() == numOfVoters) {
-            throw new RuntimeException(t.getName() + " all threads already voted");
-        }
-        System.out.println(t.getName() + " just voted");
-        if (vote) {
-            votes++;
-        } else {
-            votes--;
-        }
-        alreadyVoted.add(t);
-        notifyAll();
     }
 
-    public synchronized boolean isDone() {
-        return alreadyVoted.size() == numOfVoters;
+    public boolean isDone() {
+        synchronized (monitor) {
+            return alreadyVoted.size() == numOfVoters;
+        }
     }
 
-    public synchronized boolean waitForResult() throws InterruptedException {
+    public boolean waitForResult() throws InterruptedException {
         while (!isDone())
-            wait();
+            synchronized (monitor) {
+                monitor.wait();
+            }
         return votes > 0;
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         // Random rng = new Random();
         // b.vote(true);
         // System.out.println(b.isDone());
         // b.vote(false);
-        System.out.println("press return to start");
-        scanner.nextLine();
         runWithNThreads(10);
-        System.out.println("press return to start");
-        scanner.nextLine();
         runWithNThreads(20);
-        System.out.println("press return to start");
-        scanner.nextLine();
         runWithNThreads(200);
-        System.out.println("press return to start");
-        scanner.nextLine();
         runWithNThreads(3000);
-        System.out.println("press return to start");
-        scanner.nextLine();
         runWithNThreads(4000);
-        scanner.close();
         // runWithNThreads(30000);
         // con questo "test" é crashata la JVM
         //

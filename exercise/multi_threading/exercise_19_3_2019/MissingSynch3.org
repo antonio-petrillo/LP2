@@ -1,0 +1,71 @@
+#+title: Missing Synch3
+
+* Missing synch 3 (2019-3-19)
+** Code
+#+begin_src java
+class MyThread extends Thread {
+    public void run() {
+        final int n = a.length - 1;
+        // --- 1 ---
+        for (int i = 0; i < n >> 1; i++ ){
+            // --- 2 ---
+            // swap a[i] e a[n - i]
+            int temp = a[i];
+            a[i] = a[n - i];
+            a[n - i] = temp;
+            // --- 3 ---
+        }
+        // --- 4 ---
+    }
+}
+#+end_src
+** Esercizio
+Il main lancia due istanze di MyThread con l'intento di trovare l'array inalterato.
+Scegliere le risposte che rendono thread-safe ed asente da race condition l'esecuzione.
+** Possibili risposte
+A. [ ] Non aggiungere nulla
+B. [ ] Aggiungere ~synchronized~ al run
+C. [ ] 1 => ~synchronized(this) {~ AND 4 => ~}~
+D. [ ] 1 => ~synchronized {~ AND 4 => ~}~
+E. [X] 1 => ~synchronized(a) {~ AND 4 => ~}~
+F. [X] 1 => ~synchronized(MyThread.class) {~ AND 4 => ~}~
+G. [ ] 1 => ~a.wait()~ AND 4 => ~a.notify()~
+H. [ ] 2 => ~synchronized(this) {~ AND 3 => ~}~
+I. [ ] 2 => ~synchronized(a[i]) {~ AND 3 => ~}~
+J. [X] 2 => ~synchronized(a) {~ AND 3 => ~}~
+K. [X] 2 => ~synchronized(MyThread.class) {~ AND 3 => ~}~
+*** Non thread safe
+**** A
+Di certo non va bene dato che piú thread lavorano (lettura/scrittura) sulle celle dell'array possono esserci race condition sui valori.
+É necessario rendere run mutuamente esclusivo con se stesso
+**** B
+Dalla traccia viene specificato che vengono create due istanze diverse di MyThread che quindi hanno due monitor diversi.
+Se due MyThread chiamano run, questi acquisiscono il monitor della propria istanza ma non impediscono all'altro di accedere e modificare l'array.
+**** C
+Stessa ragione di B.
+**** D
+Sintassi errata, va specificato l'oggetto da cui assumere il monitor, non compila
+**** G
+~a.wait()~ dovrebbe trovarsi in un try/catch, questo codice non compila.
+Inoltre qualora vi fosse il try/catch lancerebbe un'eccezione a runtime dato che il metodo non acquisice mai il lock del monitor dell'array ~a~.
+Se supponiamo anche che il metodo acquisice anche il monitor di ~a~ andrebbe in attesa infinita.
+Sia il primo che il secondo thread effettuerebbero ~a.wait()~ senza controllare nessuna condizione, questo implica che i thread non possono essere svegliati.
+**** H
+Stessa ragione di B e C.
+**** I
+L'array é definito nel seguente modo ~int[] a~, quindi di per se ~a~ possiede un monitor, ma le varie celle che lo compongono no dato che sono di tipo primitivo.
+Con queste modifiche il programma non compilerebbe.
+*** Thread safe
+**** E
+Ora il run acquisice il monitor dell'array impedendo quindi ad altre istanze di modificarlo.
+Posizionare peró le istruzioni a riga ~1~ e riga ~4~ annulla qualsiasi beneficio del parallelismo dato che deve prima terminare il run di un thread per poi poter eseguire l'altro.
+**** F
+Dato che tutte le istanze di MyThread sfruttano lo stesso monitor non puó succedere che piú istanze di MyThread si trovino nella zona critica contemporamente.
+In pratica questa é una soluzione ai problemi di B, C e H.
+Per un problema del genere acquisire il monitor di ~MyThread.class~ é sconsigliato dato che é unico in tutta l'esecuzione e non sappiamo se un client puó acquisirlo da qualche parte.
+**** J
+Funziona per lo stesso motivo di E, solo che ora il lock viene acquisito prima dell'accesso alle caselle, permettendo quindi un interleaving fra i thread.
+Questa é la soluzione migliore secondo me.
+**** K
+Funziona per le stesse motivazioni di F, e per le stesse ragioni di J (ovvero che permette interleaving), é preferibile ad F.
+Lo svantaggio é che acquisisce sempre il lock del suo oggetto classe.

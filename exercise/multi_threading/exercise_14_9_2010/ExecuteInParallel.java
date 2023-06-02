@@ -49,7 +49,7 @@ public class ExecuteInParallel {
         long start = System.currentTimeMillis();
         executeInParallel(runnables, k);
         long end = System.currentTimeMillis();
-        System.out.printf("With [%d, %d] the execution takes %d millisecond.\n", n, k, (end - start));
+        System.out.printf("With [%d, %d] the execution takes %d milliseconds.\n", n, k, (end - start));
     }
 
 }

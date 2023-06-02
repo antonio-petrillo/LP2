@@ -1,0 +1,40 @@
+#+title: Exercise
+
+* Code
+#+begin_src java
+public class A {
+
+    private volatile int n;
+
+    public int incrementAndGet() {
+        return ++n;
+    }
+
+    public static void main(String[] args) {
+        A a = new A();
+        A b = new A();
+        Thread t1 = new Thread(() -> System.out.println(a.incrementAndGet()));
+        Thread t2 = new Thread(() -> System.out.println(b.incrementAndGet()));
+        Thread t3 = new Thread(() -> System.out.println(a.incrementAndGet()));
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+
+}
+#+end_src
+* Outputs
+| nth\print | 1st | 2nd | 3rd | Reason                           |
+|         1 |   1 |   1 |   1 |                                  |
+|         2 |   1 |   2 |   3 | all t1, then all t2, then all t3 |
+|         3 |   2 |   1 |   3 |                                  |
+|         4 |   1 |   3 |   2 |                                  |
+|         5 |   2 |   3 |   1 |                                  |
+|         6 |   3 |   1 |   2 |                                  |
+|         7 |   3 |   2 |   1 |                                  |
+|         8 |   1 |   2 |   2 |                                  |
+|         9 |   2 |   1 |   2 |                                  |
+|        10 |   2 |   2 |   1 |                                  |
+|        11 |   1 |   1 |   2 |                                  |
+|        12 |   1 |   2 |   1 |                                  |
+|        13 |   2 |   1 |   1 |                                  |

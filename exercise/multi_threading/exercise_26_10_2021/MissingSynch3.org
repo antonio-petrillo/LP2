@@ -1,0 +1,59 @@
+* Missing synch 3 (2021-10-26)
+** Snippet
+#+begin_src java
+public class MyThread extends Thread {
+
+    public void run() {
+        // 1
+        for (int i = 0; i < a.length; i++) {
+            // 2
+            if (a[i] > b[i]) {
+                int temp = b[i];
+                b[i] = a[i];
+                a[i] = temp;
+            }
+            // 3
+        }
+        // 4
+    }
+}
+#+end_src
+** Esercizio
+Le istanze di MyThread condividono due array ~int[]~ a e b.
+Quali delle seguenti istruzioni rendono thread safe il codice?
+** Possibili risposte
+A. [ ] Non aggiungere nulla
+B. [ ] 1 => ~synchronized(this) {~ AND 4 => ~}~
+C. [X] 1 => ~synchronized(MyThread.class) {~ AND 4 => ~}~
+D. [ ] 1 => ~synchronized {~ AND 4 => ~}~
+E. [X] 1 => ~synchronized(a) {~ AND 4 => ~}~
+F. [X] 1 => ~synchronized(b) {~ AND 4 => ~}~
+G. [ ] 2 => ~synchronized(this) {~ AND 3 => ~}~
+H. [ ] 2 => ~synchronized(a[i]) {~ AND 3 => ~}~
+I. [X] 2 => ~synchronized(b) {~ AND 3 => ~}~
+J. [ ] 2 => ~a.wait()~ AND 3 => ~a.notifyAll()~
+** Non Thread safe
+*** A
+Piú thread condividono ~a~ e ~b~ quindi vanno coordinati.
+*** B
+Acquisisre il monitor di una istanza del thread non impedisce alle altre istanze di accedere alla zona critica.
+*** D
+Non compila, nel blocco synchronized va specificato l'oggetto di cui prendere il monitor.
+*** G
+Non funziona per lo stesso motivo id B.
+*** H
+L'array possiede un monitor essendo un oggetto ma il tipo primitivo ~int~ no, questa soluzione non compila.
+*** J
+Il thread non acquisice il monitor di ~a~ quindi lancerá un errore a runtime nel momento in cui ~wait()~ cercherá di lasciare il lock.
+** Thread safe
+*** C
+Funziona dato che tutte le istanze di thread sono /sincronizzate/ sullo stesso monitor.
+Posizionare le istruzioni a riga 1 e 4, comporta che l'esecuzione di un  thread avviene solo dopo che il thread che ha prima acquisito il lock lo rilasci, questa soluzioni in pratica annulla il parallelismo.
+*** E
+Tutti i thread sono /sincronizzati/ sullo stesso monitor quindi non puó capitare che piú thread si trovino nella sezione critica contemporamente.
+Come la C, questa soluzione annulla del tutto il parallelismo.
+*** F
+Come E, quindi anche con gli stessi problemi, solo che acquisice il monitor di ~b~.
+*** I
+Concettualmente come E ed F con la differenza che ora le istruzioni sono a riga 2 e 3 permettendo un interleaving fra i thread.
+Questa é la soluzione migliore.

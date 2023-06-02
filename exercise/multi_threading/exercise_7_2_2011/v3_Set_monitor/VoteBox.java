@@ -12,31 +12,35 @@ public class VoteBox {
         this.numOfVoters = numOfVoters;
     }
 
-    public synchronized void vote(boolean vote) {
-        Thread t = Thread.currentThread();
-        if (alreadyVoted.contains(t)) {
-            throw new RuntimeException(t.getName() + " already voted");
+    public void vote(boolean vote) {
+        synchronized (alreadyVoted) {
+            Thread t = Thread.currentThread();
+            if (alreadyVoted.contains(t)) {
+                throw new RuntimeException(t.getName() + " already voted");
+            }
+            if (alreadyVoted.size() == numOfVoters) {
+                throw new RuntimeException(t.getName() + " all threads already voted");
+            }
+            System.out.println(t.getName() + " just voted");
+            if (vote) {
+                votes++;
+            } else {
+                votes--;
+            }
+            alreadyVoted.add(t);
+            alreadyVoted.notifyAll();
         }
-        if (alreadyVoted.size() == numOfVoters) {
-            throw new RuntimeException(t.getName() + " all threads already voted");
-        }
-        System.out.println(t.getName() + " just voted");
-        if (vote) {
-            votes++;
-        } else {
-            votes--;
-        }
-        alreadyVoted.add(t);
-        notifyAll();
     }
 
     public synchronized boolean isDone() {
         return alreadyVoted.size() == numOfVoters;
     }
 
-    public synchronized boolean waitForResult() throws InterruptedException {
+    public boolean waitForResult() throws InterruptedException {
         while (!isDone())
-            wait();
+            synchronized (alreadyVoted) {
+                alreadyVoted.wait();
+            }
         return votes > 0;
     }
 
