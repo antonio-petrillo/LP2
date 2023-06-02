@@ -1,0 +1,51 @@
+#+title: Missing Sync2
+
+* Code
+Le istanze di MyThread condividono due variabili a e b di tipo ~int[]~.
+#+begin_src java
+public MyThread extends Thread {
+
+    public void run (){
+        // --- 1 ---
+        for (int i = 0; i < a.length; i++){
+            // --- 2 ---
+            if (a[i] > 0) {
+                b[i] = a[i];
+                b[i] = 0;
+            }
+            // --- 3 ---
+        }
+        // --- 4 ---
+    }
+
+}
+#+end_src
+* Possibili soluzioni
+A. [ ] non aggiungere nulla
+B. [ ] 1 == synchronized (this) {, 4 == }
+C. [ ] 1 == synchronized {, 4 == }
+D. [X] 1 == synchronized (a) {, 4 == }
+E. [ ] 2 == synchronized (this) {, 3 == }
+F. [ ] 2 == synchronized (a[i]) {, 3 == }
+G. [X] 2 == synchronized (b) {, 3 == }
+H. [ ] 2 a.wait(); , 3 == a.notify()
+* Thread safe
+** D
+Tutti i thread si sincronizzano sullo stesso monitor di ~a~, anche se modificano B devono prima ottenere il monitor di ~a~.
+Questa soluzione annulla del tutto il multithreading dato che ogni thread, per poter fare il proprio lavoro, deve prima aspettare che il thread che ha il monitor (che lo ha preso prima di lui), termini i suoi calcoli.
+** G
+Funziona per lo stesso motivo della risposta D con la differenza che questa permette a piú thread di avere interleaving, quindi in questo caso vi é ancora un vero e proprio multithreading.
+É la soluzione migliore.
+* Not Thread safe
+** A
+Piú thread condividono risorse non thread safe, quindi vanno coordinati.
+** B
+Ogni istanza ti MyThread blocca il monitor sul suo run (lo stesso thread non puó chiamare il suo run contemporaneamente), questo non impedisce ad altre istanze di accedere alla zona critica nello stesso momento.
+** C
+Non compila, il ~synchronized~ necessita di un monitor come /argomento/.
+** E
+Stesso problema di B.
+** F
+Gli array sono di tipo primitivo, a[i] non possiede un monitor e quindi non puó essere usato come un lock per il synchronized.
+** H
+Tutti i thread chiamano prima a.wait() ma non c'é nessuno a svegliarli, ció genera un deadlock (piú precisamente un'attesa infinita).

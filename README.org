@@ -441,31 +441,31 @@ Start on page 167.
 + [X] 2010-1-22 (GetByType)
 + [X] 2009-11-27 (CountByType)
 + [X] 2006-9-15 (SuperclassIterator)
-* Multi-threading [32%]
+* DONE Multi-threading [40%]
 Start on page 169.
 + [X] 2021-9-24 (MysteryThread6)
 + [X] 2021-7-26 (?)
 + [X] 2021-10-26 (Missing synch 3)
 + [X] 2020-2-27 (MysteryThread8)
 + [ ] 2020-1-24 (MysteryThread7)
-+ [ ] 2019-9-20 (MysteryThread6)
++ [X] 2019-9-20 (MysteryThread6)
 + [ ] 2019-7-23 (RandomExecutor)
 + [X] 2019-3-19 (Missing synch 3)
-+ [ ] 2019-2-15 (Missing synch 2)
++ [X] 2019-2-15 (Missing synch 2)
 + [ ] 2019-10-9 (Shop)
-+ [ ] 2019-1-23 (Guess The Number)
++ [X] 2019-1-23 (Guess The Number)
 + [ ] 2018-9-17 (SharedCounter)
 + [X] 2018-7-19 (SafeSet)
 + [ ] 2018-7-19 (MysteryThread5)
 + [ ] 2018-6-20 (PeriodicExecutor)
 + [X] 2016-2-22 (Two Threads)
-+ [ ] 2018-1-24 (Shared total)
++ [X] 2018-1-24 (Shared total)
 + [ ] 2017-7-20 (MysteryThread5)
 + [ ] 2017-6-21 (Market)
 + [ ] 2017-3-23 (Bonus per Employee)
 + [ ] 2017-2-23 (sumAndMax)
 + [ ] 2017-10-5 (Somma e azzera)
-+ [ ] 2017-1-25 (mergeIfSorted)
++ [X] 2017-1-25 (mergeIfSorted)
 + [ ] 2016-9-20 (Somma due)
 + [ ] 2016-7-21 (findString)
 + [ ] 2016-6-22 (BlockingArray)
@@ -549,7 +549,7 @@ Start on page 197.
 + [X] 2008-1-30 (Sorter)
 + [X] 2007-9-17 (FunnyOrder)
 + [X] 2007-6-29 (Rational)
-* Exercise to improve [3/4]
+* Exercise to improve [3/5]
 + [X] 2018-10-18 (Component & Configuration)
     Instead of use the HashMap in Configuration, use the ad hoc map for enums.
 + [X] 2010-9-14 (ExecuteInParallel)
@@ -559,3 +559,5 @@ Start on page 197.
     Improve the code of thread race, remove the use of the array to pass a reference
 + [ ] 2010-6-28 QueueOfTasks
     Aggiungere criterio di terminazione.
++ [ ] 2018-1-24 SharedTotal
+    Chiedi della cattura del riferimento del tipo primitivo
