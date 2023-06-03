@@ -441,7 +441,7 @@ Start on page 167.
 + [X] 2010-1-22 (GetByType)
 + [X] 2009-11-27 (CountByType)
 + [X] 2006-9-15 (SuperclassIterator)
-* DONE Multi-threading [40%]
+* DONE Multi-threading [41%]
 Start on page 169.
 + [X] 2021-9-24 (MysteryThread6)
 + [X] 2021-7-26 (?)
@@ -479,7 +479,7 @@ Start on page 169.
 + [ ] 2014-7-3 (Exchanger)
 + [ ] 2014-7-28 (PriorityExecutor)
 + [X] 2014-3-5 (PeriodicTask)
-+ [ ] 2014-11-28 (Alarm)
++ [X] 2014-11-28 (Alarm)
 + [ ] 2014-1-31 (PostOfficeQueue)
 + [ ] 2013-9-25 (executeWithDeadline)
 + [ ] 2013-7-9 (processArray)
