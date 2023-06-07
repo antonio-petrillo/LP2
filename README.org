@@ -112,7 +112,7 @@ Start on page 9.
 + [ ] 2006-7-17
 + [ ] 2006-6-26
 + [ ] 2006-4-27
-* DONE Esercizi elementari  [40%]
+* DONE Esercizi elementari  [48%]
 Start on page 53.
 + [ ] 2022-2-26 (Exchange)
 + [X] 2021-9-24 (Radio)
@@ -136,70 +136,70 @@ Start on page 53.
 + [ ] 2009-1-29 (Interval)
 + [ ] 2009-1-15 (Anagram)
 + [ ] 2008-9-8, diff between abstract and interface.
-+ [ ] 2008-4-21 (Triangolo)
++ [X] 2008-4-21 (Triangolo)
 + [ ] 2008-3-27 (Impianto e Apparecchio)
 + [ ] 2008-2-25 (?)
 + [ ] 2008-1-30 (?)
 + [ ] 2007-9-17 (Aereo)
 + [ ] 2007-7-20 (ParkingLot)
-+ [ ] 2007-6-29 (Rational)
++ [X] 2007-6-29 (Rational)
 + [X] 2007-4-26 (Genealogia)
 + [ ] 2007-4-26
 + [ ] 2007-1-12 (Polinomio)
 + [ ] 2006-9-15 (FallingBody)
-+ [ ] 2006-9-15 (TreeType)
++ [X] 2006-9-15 (TreeType)
 + [ ] 2006-7-17 (Moto Accelerato)
 + [ ] 2006-6-26 (Moto Bidimensionale)
 + [ ] 2006-4-27 (Average)
-* DONE Java Collection framework  [40%]
+* DONE Java Collection framework  [57%]
 Start on page 69 (nice).
 + [X] 2020-1-24 (Product & Cart)
 + [X] 2020-6-24 (SortedList)
 + [X] 2019-04-29 (RotatingList)
 + [ ] 2019-3-19 (Library)
 + [ ] 2018-9-17 (Cellphone)
-+ [ ] 2018-7-19 (SafeSet)
++ [X] 2018-7-19 (SafeSet)
 + [X] 2018-5-2 (Merge)
 + [ ] 2018-3-23 (isSetSmaller)
 + [X] 2018-2-22 (Book & Library)
 + [X] 2018-10-18 (Component & Configuration)
 + [ ] 2018-1-24 (Bug)
-+ [ ] 2017-4-26 (Room)
++ [X] 2017-4-26 (Room)
 + [X] 2017-3-23 (BinRel)
 + [X] 2017-10-6 (Clinica)
-+ [ ] 2017-1-15 (mergeIfSorted)
++ [X] 2017-1-15 (mergeIfSorted)
 + [ ] 2016-9-20 (SocialUser)
-+ [ ] 2016-3-3 (GameLevel)
++ [X] 2016-3-3 (GameLevel)
 + [X] 2016-1-27 (Curriculum)
 + [ ] 2015-9-21 (Progression)
 + [X] 2015-6-24 (Controller)
 + [ ] 2015-1-20 (Relation)
 + [X] 2014-9-18 (Contest)
-+ [ ] 2014-7-3 (subMap)
++ [X] 2014-7-3 (subMap)
 + [X] 2014-7-28 (inverseMap)
 + [X] 2014-1-31 (BoundedSet)
 + [ ] 2013-9-25 (Movie)
-+ [ ] 2013-9-25 (composeMaps)
++ [X] 2013-9-25 (composeMaps)
 + [X] 2013-7-9 (isSorted)
 + [ ] 2013-6-25 (MultiBuffer)
 + [X] 2013-6-25 (Concat)
 + [ ] 2013-4-29 (City)
 + [ ] 2013-3-22 (Auditorium)
-+ [ ] 2013-2-11 (MultiSet)
++ [X] 2013-2-11 (MultiSet)
 + [ ] 2012-9-3 (Bijection)
 + [X] 2012-7-9 (Social network)
 + [X] 2012-6-18 (BoundedMap)
-+ [ ] 2012-4-23 (Panino)
++ [X] 2012-4-23 (Panino)
 + [X] 2011-2-7 (MakeMap)
 + [ ] 2010-9-14 (Intersect)
 + [X] 2010-11-30 (SelectKeys)
 + [ ] 2010-6-28 (PartiallyComparable)
-+ [ ] 2010-1-22 (Color)
++ [X] 2010-1-22 (Color)
 + [X] 2010-1-22 (GetByType)
 + [ ] 2009-6-19 (Tutor)
 + [ ] 2009-4-23 (UML)
 + [X] 2009-2-19 (Container)
-+ [ ] 2009-11-27 (CountByType)
++ [X] 2009-11-27 (CountByType)
 + [ ] 2009-1-15 (Volo & Passaggero)
 + [ ] 2008-9-8 (PostIt)
 + [X] 2008-6-19 (Molecola)
@@ -208,7 +208,7 @@ Start on page 69 (nice).
 + [ ] 2008-1-30 (Recipe)
 + [X] 2007-9-17 (FunnyOrder)
 + [ ] 2007-6-29 (?)
-+ [ ] 2007-6-29 (Highway)
++ [X] 2007-6-29 (Highway)
 + [ ] 2007-2-7 (Polinomio-bis)
 + [X] 2007-2-23 (Inventory)
 + [ ] 2007-1-12 (Insieme di Polinomi)
@@ -217,39 +217,38 @@ Start on page 69 (nice).
 + [ ] 2006-6-26 (Pubblication)
 + [X] 2006-6-26 (DoubleQueue)
 + [ ] 2006-6-26 (?)
-* DONE Scelta della firma
+* DONE Scelta della firma  [100%]
 Start on page 95.
-** Exercise [46%]
 + [X] 2022-1-28 (combine)
 + [X] 2021-9-24 (countOccurrences)
 + [X] 2021-7-26 (overridingMap)
-+ [ ] 2021-10-26 (countInBetweens)
++ [X] 2021-10-26 (countInBetweens)
 + [X] 2020-2-27 (keysWithHighestValue)
-+ [ ] 2019-9-20 (disjoin)
-+ [ ] 2019-7-23 (Minimum enum)
-+ [ ] 2019-6-24 (keysWithValue)
++ [X] 2019-9-20 (disjoin)
++ [X] 2019-7-23 (Minimum enum)
++ [X] 2019-6-24 (keysWithValue)
 + [X] 2019-10-9 (Interleave2)
-+ [ ] 2019-1-23 (findPrevious)
++ [X] 2019-1-23 (findPrevious)
 + [X] 2018-6-20 (makeMap)
-+ [ ] 2018-2-22 (cartesianProduct)
-+ [ ] 2018-10-18 (greatesLowerBound)
++ [X] 2018-2-22 (cartesianProduct)
++ [X] 2018-10-18 (greatesLowerBound)
 + [X] 2018-1-24 (isIncreasing)
 + [X] 2017-7-20 (commonKeys)
 + [X] 2017-6-21 (findNext)
-+ [ ] 2016-6-22 (arePermutations)
++ [X] 2016-6-22 (arePermutations)
 + [X] 2015-9-21 (splitList)
-+ [ ] 2015-6-24 (listIntersection)
++ [X] 2015-6-24 (listIntersection)
 + [X] 2015-2-5 (reverseList)
-+ [ ] 2015-1-20 (difference)
-+ [ ] 2014-7-3 (subMap)
-+ [ ] 2014-7-28 (inverseMap)
++ [X] 2015-1-20 (difference)
++ [X] 2014-7-3 (subMap)
++ [X] 2014-7-28 (inverseMap)
 + [X] 2014-7-28 (extractPos)
 + [X] 2014-11-28 (product)
 + [X] 2014-1-31 (isMax)
-+ [ ] 2013-9-25 (composeMaps)
-+ [ ] 2013-7-9 (isSorted)
-+ [ ] 2013-6-25 (Concat)
-+ [ ] 2013-12-16 (agree)
++ [X] 2013-9-25 (composeMaps)
++ [X] 2013-7-9 (isSorted)
++ [X] 2013-6-25 (Concat)
++ [X] 2013-12-16 (agree)
 * DONE Trova l'errore [100%]
 Start on page 105.
 + [X] 2007-7-20
@@ -263,7 +262,7 @@ Start on page 105.
 Start on page 109.
 + [X] 2018-5-2 (Merge)
 + [X] 2016-4-21 (Count)
-* DONE Programmazione parametrica (generics) [53%]
+* DONE Programmazione parametrica (generics) [56%]
 Start on page 111.
 + [X] 2020-2-27 (Accumulator)
 + [X] 2019-2-15 (Range)
@@ -271,7 +270,7 @@ Start on page 111.
 + [X] 2016-7-21 (?)
 + [X] 2016-1-27 (?)
 + [ ] 2015-1-20 (Relation)
-+ [ ] 2013-4-29 (Pair)
++ [X] 2013-4-29 (Pair)
 + [X] 2012-6-18 (BoundedMap)
 + [ ] 2013-3-4 (?)
 + [X] 2011-2-7 (MakeMap)
@@ -290,7 +289,7 @@ Start on page 111.
 + [X] 2007-7-20 (CommonDivisor)
 + [ ] 2007-7-20 (ParkingLot)
 + [ ] 2007-7-20 (?)
-+ [X] 2007-6-29 Implement Generic Field (DoubleField) and Polynomial
++ [X] 2007-6-29 (DoubleField and Polynomial)
 + [ ] 2007-2-7 (Polinomio bis)
 + [ ] 2007-2-23 (Inventory)
 + [ ] 2006-7-17 (?)
@@ -549,7 +548,7 @@ Start on page 197.
 + [X] 2008-1-30 (Sorter)
 + [X] 2007-9-17 (FunnyOrder)
 + [X] 2007-6-29 (Rational)
-* Exercise to improve [3/5]
+* Exercise to improve [4/5]
 + [X] 2018-10-18 (Component & Configuration)
     Instead of use the HashMap in Configuration, use the ad hoc map for enums.
 + [X] 2010-9-14 (ExecuteInParallel)
@@ -559,5 +558,6 @@ Start on page 197.
     Improve the code of thread race, remove the use of the array to pass a reference
 + [ ] 2010-6-28 QueueOfTasks
     Aggiungere criterio di terminazione.
-+ [ ] 2018-1-24 SharedTotal
++ [X] 2018-1-24 SharedTotal
     Chiedi della cattura del riferimento del tipo primitivo
+    RMB: solo le var locali devono essere effectively final dato che all'uscita dal metodo vengono deallocate dallo stack, per questo motivo devono essere catturate, questo non riguarda i field della classe.
