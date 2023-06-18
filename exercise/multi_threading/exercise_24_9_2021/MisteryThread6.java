@@ -40,6 +40,7 @@ public class MisteryThread6 {
             x.notifyAll();
         }
         // sequenze:
+        // // NOTA gli incr possono variare da 1 a 3
         // incremento
         // incremento
         // incremento

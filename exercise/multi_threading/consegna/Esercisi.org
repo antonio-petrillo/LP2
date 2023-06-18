@@ -25,7 +25,7 @@ public class A {
 }
 #+end_src
 ** Possibili Outputs
-| count  | 1st print | 2nd print | 3rd print |
+| count | 1st print | 2nd print | 3rd print |
 |-------+-----------+-----------+-----------|
 |     1 |         1 |         1 |         1 |
 |     2 |         1 |         2 |         3 |
@@ -40,6 +40,8 @@ public class A {
 |    11 |         1 |         1 |         2 |
 |    12 |         1 |         2 |         1 |
 |    13 |         2 |         1 |         1 |
+|    14 |         2 |         2 |         2 |
+|    15 |         3 |         3 |         3 |
 * Missing synch 3 (2019-3-19)
 ** Snippet
 #+begin_src java
